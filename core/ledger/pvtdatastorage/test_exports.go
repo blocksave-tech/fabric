@@ -10,9 +10,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger/pvtdatapolicy"
+	"github.com/sinochem-tech/fabric/core/ledger/pvtdatapolicy"
 
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
+	"github.com/sinochem-tech/fabric/core/ledger/ledgerconfig"
 	"github.com/stretchr/testify/assert"
 )
 

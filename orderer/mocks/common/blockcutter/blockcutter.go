@@ -17,8 +17,8 @@ limitations under the License.
 package blockcutter
 
 import (
-	"github.com/hyperledger/fabric/common/flogging"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	cb "github.com/sinochem-tech/fabric/protos/common"
 	"github.com/op/go-logging"
 )
 

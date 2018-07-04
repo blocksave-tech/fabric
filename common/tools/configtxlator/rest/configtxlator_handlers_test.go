@@ -24,9 +24,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/tools/configtxlator/sanitycheck"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/tools/configtxlator/sanitycheck"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/utils"
 
 	"github.com/stretchr/testify/assert"
 )

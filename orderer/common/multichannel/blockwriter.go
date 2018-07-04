@@ -9,13 +9,13 @@ package multichannel
 import (
 	"sync"
 
-	newchannelconfig "github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/configtx"
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/common/ledger/blockledger"
-	"github.com/hyperledger/fabric/common/util"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	newchannelconfig "github.com/sinochem-tech/fabric/common/channelconfig"
+	"github.com/sinochem-tech/fabric/common/configtx"
+	"github.com/sinochem-tech/fabric/common/crypto"
+	"github.com/sinochem-tech/fabric/common/ledger/blockledger"
+	"github.com/sinochem-tech/fabric/common/util"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/utils"
 
 	"github.com/golang/protobuf/proto"
 )

@@ -10,9 +10,9 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/msp"
+	"github.com/sinochem-tech/fabric/protos/common"
 	"github.com/pkg/errors"
 )
 

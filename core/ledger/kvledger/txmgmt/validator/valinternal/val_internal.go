@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package valinternal
 
 import (
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/sinochem-tech/fabric/protos/peer"
 )
 
 // InternalValidator is supposed to validate the transactions based on public data and hashes present in a block

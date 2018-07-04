@@ -4,12 +4,12 @@ package mocks
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	endorser_test "github.com/hyperledger/fabric/core/endorser"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/common/channelconfig"
+	"github.com/sinochem-tech/fabric/core/common/ccprovider"
+	endorser_test "github.com/sinochem-tech/fabric/core/endorser"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/protos/common"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 	"golang.org/x/net/context"
 )
 

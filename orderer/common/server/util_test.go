@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/config/configtest"
-	config "github.com/hyperledger/fabric/orderer/common/localconfig"
+	"github.com/sinochem-tech/fabric/core/config/configtest"
+	config "github.com/sinochem-tech/fabric/orderer/common/localconfig"
 	"github.com/stretchr/testify/assert"
 )
 

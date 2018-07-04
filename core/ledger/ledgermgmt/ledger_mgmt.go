@@ -20,16 +20,16 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/hyperledger/fabric/core/ledger/cceventmgmt"
+	"github.com/sinochem-tech/fabric/core/ledger/cceventmgmt"
 
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/customtx"
-	"github.com/hyperledger/fabric/core/ledger/kvledger"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/core/ledger/customtx"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger"
+	"github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/utils"
 )
 
 var logger = flogging.MustGetLogger("ledgermgmt")

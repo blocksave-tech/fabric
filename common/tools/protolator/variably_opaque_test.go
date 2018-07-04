@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/tools/protolator/testprotos"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/tools/protolator/testprotos"
+	"github.com/sinochem-tech/fabric/protos/utils"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"

@@ -19,10 +19,10 @@ package statebasedval
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb/stateleveldb"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/statedb/stateleveldb"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/version"
 )
 
 func TestCombinedIterator(t *testing.T) {

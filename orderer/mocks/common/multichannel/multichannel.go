@@ -7,13 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package multichannel
 
 import (
-	"github.com/hyperledger/fabric/common/channelconfig"
-	mockconfig "github.com/hyperledger/fabric/common/mocks/config"
-	"github.com/hyperledger/fabric/orderer/common/blockcutter"
-	"github.com/hyperledger/fabric/orderer/common/msgprocessor"
-	mockblockcutter "github.com/hyperledger/fabric/orderer/mocks/common/blockcutter"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/channelconfig"
+	mockconfig "github.com/sinochem-tech/fabric/common/mocks/config"
+	"github.com/sinochem-tech/fabric/orderer/common/blockcutter"
+	"github.com/sinochem-tech/fabric/orderer/common/msgprocessor"
+	mockblockcutter "github.com/sinochem-tech/fabric/orderer/mocks/common/blockcutter"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/utils"
 )
 
 // ConsenterSupport is used to mock the multichannel.ConsenterSupport interface

@@ -4,7 +4,7 @@ package mock
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/core/common/ccprovider"
+	"github.com/sinochem-tech/fabric/core/common/ccprovider"
 )
 
 type PackageProvider struct {

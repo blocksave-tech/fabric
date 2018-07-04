@@ -9,14 +9,14 @@ package multichannel
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/configtx"
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	"github.com/hyperledger/fabric/orderer/common/blockcutter"
-	"github.com/hyperledger/fabric/orderer/common/msgprocessor"
-	"github.com/hyperledger/fabric/orderer/consensus"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/channelconfig"
+	"github.com/sinochem-tech/fabric/common/configtx"
+	genesisconfig "github.com/sinochem-tech/fabric/common/tools/configtxgen/localconfig"
+	"github.com/sinochem-tech/fabric/orderer/common/blockcutter"
+	"github.com/sinochem-tech/fabric/orderer/common/msgprocessor"
+	"github.com/sinochem-tech/fabric/orderer/consensus"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/utils"
 )
 
 type mockConsenter struct {

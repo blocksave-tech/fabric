@@ -20,8 +20,8 @@ import (
 	"crypto/rand"
 	"fmt"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/sinochem-tech/fabric/bccsp"
+	"github.com/sinochem-tech/fabric/bccsp/utils"
 )
 
 func signECDSA(k *ecdsa.PrivateKey, digest []byte, opts bccsp.SignerOpts) (signature []byte, err error) {

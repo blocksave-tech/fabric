@@ -4,8 +4,8 @@ package mock
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/common/deliver"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/common/deliver"
+	cb "github.com/sinochem-tech/fabric/protos/common"
 )
 
 type ResponseSender struct {

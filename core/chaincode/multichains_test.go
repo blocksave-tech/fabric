@@ -19,8 +19,8 @@ package chaincode
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/core/common/ccprovider"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 
 	"golang.org/x/net/context"
 )
@@ -39,7 +39,7 @@ func TestExecuteInvokeOnManyChains(t *testing.T) {
 
 	var ctxt = context.Background()
 
-	url := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	url := "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd"
 	chaincodeID := &pb.ChaincodeID{Name: "example02", Path: url, Version: "0"}
 
 	args := []string{"a", "b", "10"}

@@ -16,9 +16,9 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 )
 
 var ccproviderLogger = flogging.MustGetLogger("ccprovider")

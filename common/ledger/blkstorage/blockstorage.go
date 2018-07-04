@@ -19,10 +19,10 @@ package blkstorage
 import (
 	"errors"
 
-	"github.com/hyperledger/fabric/common/ledger"
-	l "github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/common/ledger"
+	l "github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/peer"
 )
 
 // IndexableAttr represents an indexable attribute

@@ -15,9 +15,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/bccsp/signer"
+	"github.com/sinochem-tech/fabric/bccsp"
+	"github.com/sinochem-tech/fabric/bccsp/factory"
+	"github.com/sinochem-tech/fabric/bccsp/signer"
 )
 
 // LoadPrivateKey loads a private key from file in keystorePath

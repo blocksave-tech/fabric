@@ -14,7 +14,7 @@ import (
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
 
-	"github.com/hyperledger/fabric/integration/nwo/commands"
+	"github.com/sinochem-tech/fabric/integration/nwo/commands"
 )
 
 type Chaincode struct {

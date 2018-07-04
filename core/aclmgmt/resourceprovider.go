@@ -9,10 +9,10 @@ package aclmgmt
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/channelconfig"
+	"github.com/sinochem-tech/fabric/protos/common"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/protos/utils"
 )
 
 //--------- errors ---------

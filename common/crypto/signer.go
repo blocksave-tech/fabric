@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package crypto
 
 import (
-	cb "github.com/hyperledger/fabric/protos/common"
+	cb "github.com/sinochem-tech/fabric/protos/common"
 )
 
 // LocalSigner is a temporary stub interface which will be implemented by the local MSP

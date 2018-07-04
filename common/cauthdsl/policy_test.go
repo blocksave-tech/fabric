@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/policies"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/common/policies"
+	cb "github.com/sinochem-tech/fabric/protos/common"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"

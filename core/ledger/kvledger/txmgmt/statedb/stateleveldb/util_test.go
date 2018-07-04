@@ -19,8 +19,8 @@ package stateleveldb
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/version"
 )
 
 // TestEncodeString tests encoding and decoding a string value

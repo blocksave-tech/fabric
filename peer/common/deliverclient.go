@@ -7,14 +7,14 @@ SPDX-License-Identifier: Apache-2.0
 package common
 
 import (
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/localmsp"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/peer/common/api"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/localmsp"
+	"github.com/sinochem-tech/fabric/common/util"
+	"github.com/sinochem-tech/fabric/peer/common/api"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	ab "github.com/sinochem-tech/fabric/protos/orderer"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/protos/utils"
 	"github.com/pkg/errors"
 )
 

@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/integration/chaincode/simple"
+	"github.com/sinochem-tech/fabric/core/chaincode/shim"
+	"github.com/sinochem-tech/fabric/integration/chaincode/simple"
 )
 
 func main() {

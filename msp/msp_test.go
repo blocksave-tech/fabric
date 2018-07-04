@@ -21,11 +21,11 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/sw"
-	"github.com/hyperledger/fabric/bccsp/utils"
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/protos/msp"
+	"github.com/sinochem-tech/fabric/bccsp"
+	"github.com/sinochem-tech/fabric/bccsp/sw"
+	"github.com/sinochem-tech/fabric/bccsp/utils"
+	"github.com/sinochem-tech/fabric/core/config/configtest"
+	"github.com/sinochem-tech/fabric/protos/msp"
 	"github.com/stretchr/testify/assert"
 )
 

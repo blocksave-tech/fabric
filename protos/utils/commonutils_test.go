@@ -22,9 +22,9 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/crypto"
-	cb "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/common/crypto"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

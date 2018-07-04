@@ -16,29 +16,29 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/common/mocks/config"
-	mscc "github.com/hyperledger/fabric/common/mocks/scc"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/aclmgmt/mocks"
-	"github.com/hyperledger/fabric/core/aclmgmt/resources"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	cutil "github.com/hyperledger/fabric/core/container/util"
-	"github.com/hyperledger/fabric/core/ledger/cceventmgmt"
-	"github.com/hyperledger/fabric/core/mocks/scc/lscc"
-	"github.com/hyperledger/fabric/core/policy"
-	policymocks "github.com/hyperledger/fabric/core/policy/mocks"
-	"github.com/hyperledger/fabric/msp"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
-	mspmocks "github.com/hyperledger/fabric/msp/mocks"
-	"github.com/hyperledger/fabric/protos/common"
-	mb "github.com/hyperledger/fabric/protos/msp"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
-	putils "github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/cauthdsl"
+	"github.com/sinochem-tech/fabric/common/mocks/config"
+	mscc "github.com/sinochem-tech/fabric/common/mocks/scc"
+	"github.com/sinochem-tech/fabric/common/policies"
+	"github.com/sinochem-tech/fabric/common/util"
+	"github.com/sinochem-tech/fabric/core/aclmgmt/mocks"
+	"github.com/sinochem-tech/fabric/core/aclmgmt/resources"
+	"github.com/sinochem-tech/fabric/core/chaincode/shim"
+	"github.com/sinochem-tech/fabric/core/common/ccprovider"
+	cutil "github.com/sinochem-tech/fabric/core/container/util"
+	"github.com/sinochem-tech/fabric/core/ledger/cceventmgmt"
+	"github.com/sinochem-tech/fabric/core/mocks/scc/lscc"
+	"github.com/sinochem-tech/fabric/core/policy"
+	policymocks "github.com/sinochem-tech/fabric/core/policy/mocks"
+	"github.com/sinochem-tech/fabric/msp"
+	mspmgmt "github.com/sinochem-tech/fabric/msp/mgmt"
+	"github.com/sinochem-tech/fabric/msp/mgmt/testtools"
+	mspmocks "github.com/sinochem-tech/fabric/msp/mocks"
+	"github.com/sinochem-tech/fabric/protos/common"
+	mb "github.com/sinochem-tech/fabric/protos/msp"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/protos/utils"
+	putils "github.com/sinochem-tech/fabric/protos/utils"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )
@@ -116,7 +116,7 @@ func TestInstall(t *testing.T) {
 	assert.NotEqual(t, int32(shim.OK), res.Status)
 	assert.Equal(t, "invalid number of arguments to lscc: 1", res.Message)
 
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd"
 
 	testInstall(t, "example02", "0", path, false, "", "Alice", scc, stub)
 	testInstall(t, "example02-2", "1.0", path, false, "", "Alice", scc, stub)
@@ -168,7 +168,7 @@ func testInstall(t *testing.T, ccname string, version string, path string, creat
 }
 
 func TestDeploy(t *testing.T) {
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd"
 
 	testDeploy(t, "example02", "0", path, false, false, true, "", nil, nil, nil)
 	testDeploy(t, "example02", "1.0", path, false, false, true, "", nil, nil, nil)
@@ -426,7 +426,7 @@ func testDeploy(t *testing.T, ccname string, version string, path string, forceB
 
 // TestUpgrade tests the upgrade function with various inputs for basic use cases
 func TestUpgrade(t *testing.T) {
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd"
 
 	testUpgrade(t, "example02", "0", "example02", "1", path, "", nil, nil, nil)
 	testUpgrade(t, "example02", "0", "example02", "", path, EmptyVersionErr("example02").Error(), nil, nil, nil)

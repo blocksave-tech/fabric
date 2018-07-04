@@ -9,7 +9,7 @@ package policies
 import (
 	"testing"
 
-	cb "github.com/hyperledger/fabric/protos/common"
+	cb "github.com/sinochem-tech/fabric/protos/common"
 
 	"fmt"
 	"reflect"
@@ -17,7 +17,7 @@ import (
 	"strconv"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/msp"
+	"github.com/sinochem-tech/fabric/protos/msp"
 	logging "github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"
 )

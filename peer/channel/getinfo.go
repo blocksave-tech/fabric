@@ -14,11 +14,11 @@ import (
 	"encoding/json"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/scc/qscc"
-	"github.com/hyperledger/fabric/peer/common"
-	cb "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/core/scc/qscc"
+	"github.com/sinochem-tech/fabric/peer/common"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/protos/utils"
 	"github.com/spf13/cobra"
 	"golang.org/x/net/context"
 )

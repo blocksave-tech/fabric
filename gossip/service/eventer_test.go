@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/gossip/util"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/common/channelconfig"
+	"github.com/sinochem-tech/fabric/gossip/util"
+	"github.com/sinochem-tech/fabric/protos/peer"
 )
 
 const testChainID = "foo"

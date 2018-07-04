@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	"github.com/sinochem-tech/fabric/protos/common"
 )
 
 func TestBlocksItrBlockingNext(t *testing.T) {

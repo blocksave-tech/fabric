@@ -13,7 +13,7 @@ import (
 	"io"
 	"strings"
 
-	pb "github.com/hyperledger/fabric/protos/peer"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/pkg/errors"
 )
 

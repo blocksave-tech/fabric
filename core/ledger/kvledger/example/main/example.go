@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"os"
 
-	configtxtest "github.com/hyperledger/fabric/common/configtx/test"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/example"
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
-	"github.com/hyperledger/fabric/core/ledger/ledgermgmt"
-	"github.com/hyperledger/fabric/core/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
+	configtxtest "github.com/sinochem-tech/fabric/common/configtx/test"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/example"
+	"github.com/sinochem-tech/fabric/core/ledger/ledgerconfig"
+	"github.com/sinochem-tech/fabric/core/ledger/ledgermgmt"
+	"github.com/sinochem-tech/fabric/core/ledger/testutil"
+	"github.com/sinochem-tech/fabric/core/ledger/util"
+	"github.com/sinochem-tech/fabric/protos/common"
 	logging "github.com/op/go-logging"
 )
 

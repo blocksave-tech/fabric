@@ -10,9 +10,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/msp/mocks"
-	msp2 "github.com/hyperledger/fabric/protos/msp"
+	"github.com/sinochem-tech/fabric/msp"
+	"github.com/sinochem-tech/fabric/msp/mocks"
+	msp2 "github.com/sinochem-tech/fabric/protos/msp"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

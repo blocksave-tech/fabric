@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/gossip/util"
+	"github.com/sinochem-tech/fabric/core/config/configtest"
+	"github.com/sinochem-tech/fabric/gossip/util"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

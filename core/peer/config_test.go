@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/core/comm"
+	"github.com/sinochem-tech/fabric/core/comm"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

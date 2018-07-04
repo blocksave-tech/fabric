@@ -9,7 +9,7 @@ package policies
 import (
 	"strings"
 
-	cb "github.com/hyperledger/fabric/protos/common"
+	cb "github.com/sinochem-tech/fabric/protos/common"
 
 	"github.com/pkg/errors"
 )

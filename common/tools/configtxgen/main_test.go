@@ -23,10 +23,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/configtxgentest"
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	"github.com/hyperledger/fabric/core/config/configtest"
+	"github.com/sinochem-tech/fabric/bccsp/factory"
+	"github.com/sinochem-tech/fabric/common/tools/configtxgen/configtxgentest"
+	genesisconfig "github.com/sinochem-tech/fabric/common/tools/configtxgen/localconfig"
+	"github.com/sinochem-tech/fabric/core/config/configtest"
 
 	"github.com/stretchr/testify/assert"
 )

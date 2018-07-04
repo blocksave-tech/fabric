@@ -4,10 +4,10 @@ package mock
 import (
 	"sync"
 
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
+	commonledger "github.com/sinochem-tech/fabric/common/ledger"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/peer"
 )
 
 type PeerLedger struct {

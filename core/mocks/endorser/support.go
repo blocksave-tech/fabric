@@ -7,13 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package endorser
 
 import (
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/endorser"
-	"github.com/hyperledger/fabric/core/ledger"
-	mc "github.com/hyperledger/fabric/core/mocks/ccprovider"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/common/channelconfig"
+	"github.com/sinochem-tech/fabric/core/common/ccprovider"
+	"github.com/sinochem-tech/fabric/core/endorser"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	mc "github.com/sinochem-tech/fabric/core/mocks/ccprovider"
+	"github.com/sinochem-tech/fabric/protos/common"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/stretchr/testify/mock"
 	"golang.org/x/net/context"
 )

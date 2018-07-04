@@ -23,12 +23,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/container/ccintf"
-	coreutil "github.com/hyperledger/fabric/core/testutil"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	"github.com/sinochem-tech/fabric/common/util"
+	"github.com/sinochem-tech/fabric/core/chaincode/platforms"
+	"github.com/sinochem-tech/fabric/core/container/ccintf"
+	coreutil "github.com/sinochem-tech/fabric/core/testutil"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 )
 
 // This test used to be part of an integration style test in core/container, moved to here
@@ -113,7 +113,7 @@ func Test_Start(t *testing.T) {
 	err = dvm.Start(ctx, ccid, args, env, files, nil)
 	testerr(t, err, false)
 
-	chaincodePath := "github.com/hyperledger/fabric/examples/chaincode/go/example01/cmd"
+	chaincodePath := "github.com/sinochem-tech/fabric/examples/chaincode/go/example01/cmd"
 	spec := &pb.ChaincodeSpec{
 		Type:        pb.ChaincodeSpec_GOLANG,
 		ChaincodeId: &pb.ChaincodeID{Name: "ex01", Path: chaincodePath},

@@ -10,12 +10,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/gossip/algo"
-	"github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
+	"github.com/sinochem-tech/fabric/gossip/comm"
+	"github.com/sinochem-tech/fabric/gossip/common"
+	"github.com/sinochem-tech/fabric/gossip/discovery"
+	"github.com/sinochem-tech/fabric/gossip/gossip/algo"
+	"github.com/sinochem-tech/fabric/gossip/util"
+	proto "github.com/sinochem-tech/fabric/protos/gossip"
 	"github.com/op/go-logging"
 	"github.com/pkg/errors"
 )

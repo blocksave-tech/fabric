@@ -14,11 +14,11 @@ import (
 	"strings"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/hyperledger/fabric/cmd/common"
-	"github.com/hyperledger/fabric/discovery/client"
-	. "github.com/hyperledger/fabric/protos/discovery"
-	"github.com/hyperledger/fabric/protos/gossip"
-	"github.com/hyperledger/fabric/protos/msp"
+	"github.com/sinochem-tech/fabric/cmd/common"
+	"github.com/sinochem-tech/fabric/discovery/client"
+	. "github.com/sinochem-tech/fabric/protos/discovery"
+	"github.com/sinochem-tech/fabric/protos/gossip"
+	"github.com/sinochem-tech/fabric/protos/msp"
 	"github.com/pkg/errors"
 )
 

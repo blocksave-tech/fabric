@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/orderer/common/localconfig"
-	perf "github.com/hyperledger/fabric/orderer/common/performance"
-	cb "github.com/hyperledger/fabric/protos/common"
+	genesisconfig "github.com/sinochem-tech/fabric/common/tools/configtxgen/localconfig"
+	"github.com/sinochem-tech/fabric/core/config/configtest"
+	"github.com/sinochem-tech/fabric/orderer/common/localconfig"
+	perf "github.com/sinochem-tech/fabric/orderer/common/performance"
+	cb "github.com/sinochem-tech/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -9,7 +9,7 @@ package util
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/flogging"
 	"github.com/op/go-logging"
 )
 

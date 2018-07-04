@@ -23,11 +23,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/ledger/blkstorage"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/ledger/blkstorage"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
 
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/common"
 )
 
 func TestMain(m *testing.M) {

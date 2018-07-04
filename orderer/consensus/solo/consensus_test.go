@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	mockconfig "github.com/hyperledger/fabric/common/mocks/config"
-	mockblockcutter "github.com/hyperledger/fabric/orderer/mocks/common/blockcutter"
-	mockmultichannel "github.com/hyperledger/fabric/orderer/mocks/common/multichannel"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	mockconfig "github.com/sinochem-tech/fabric/common/mocks/config"
+	mockblockcutter "github.com/sinochem-tech/fabric/orderer/mocks/common/blockcutter"
+	mockmultichannel "github.com/sinochem-tech/fabric/orderer/mocks/common/multichannel"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/utils"
 
 	"github.com/stretchr/testify/assert"
 )

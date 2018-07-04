@@ -9,9 +9,9 @@ package container_test
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/container"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/common/util"
+	"github.com/sinochem-tech/fabric/core/container"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

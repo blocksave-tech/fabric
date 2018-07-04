@@ -19,7 +19,7 @@ package lockbasedtxmgr
 import (
 	"errors"
 
-	"github.com/hyperledger/fabric/common/ledger"
+	"github.com/sinochem-tech/fabric/common/ledger"
 )
 
 // LockBasedQueryExecutor is a query executor used in `LockBasedTxMgr`

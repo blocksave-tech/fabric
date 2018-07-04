@@ -14,9 +14,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/container/ccintf"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/core/chaincode/shim"
+	"github.com/sinochem-tech/fabric/core/container/ccintf"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

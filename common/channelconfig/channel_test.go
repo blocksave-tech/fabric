@@ -11,9 +11,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/common/util"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/bccsp"
+	"github.com/sinochem-tech/fabric/common/util"
+	cb "github.com/sinochem-tech/fabric/protos/common"
 
 	logging "github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"

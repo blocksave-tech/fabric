@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package container_test
 
 import (
-	"github.com/hyperledger/fabric/core/container"
-	"github.com/hyperledger/fabric/core/container/ccintf"
-	"github.com/hyperledger/fabric/core/container/mock"
+	"github.com/sinochem-tech/fabric/core/container"
+	"github.com/sinochem-tech/fabric/core/container/ccintf"
+	"github.com/sinochem-tech/fabric/core/container/mock"
 	"github.com/pkg/errors"
 	"golang.org/x/net/context"
 

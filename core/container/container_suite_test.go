@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 package container_test
 
 import (
-	"github.com/hyperledger/fabric/core/container"
+	"github.com/sinochem-tech/fabric/core/container"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 

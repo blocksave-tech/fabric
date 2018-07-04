@@ -11,9 +11,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
+	"github.com/sinochem-tech/fabric/gossip/common"
+	"github.com/sinochem-tech/fabric/gossip/util"
+	proto "github.com/sinochem-tech/fabric/protos/gossip"
 	"github.com/op/go-logging"
 	"github.com/pkg/errors"
 	"golang.org/x/net/context"

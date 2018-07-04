@@ -25,7 +25,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp"
+	"github.com/sinochem-tech/fabric/bccsp"
 	"github.com/miekg/pkcs11"
 	"github.com/stretchr/testify/assert"
 )

@@ -8,7 +8,7 @@ package common
 import (
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/flogging"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

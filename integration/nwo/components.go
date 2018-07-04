@@ -9,8 +9,8 @@ package nwo
 import (
 	"os"
 
-	"github.com/hyperledger/fabric/integration/helpers"
-	"github.com/hyperledger/fabric/integration/runner"
+	"github.com/sinochem-tech/fabric/integration/helpers"
+	"github.com/sinochem-tech/fabric/integration/runner"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gexec"
 )
@@ -32,23 +32,23 @@ func (c *Components) Build(args ...string) {
 	if c.Paths == nil {
 		c.Paths = map[string]string{}
 	}
-	cryptogen, err := gexec.Build("github.com/hyperledger/fabric/common/tools/cryptogen", args...)
+	cryptogen, err := gexec.Build("github.com/sinochem-tech/fabric/common/tools/cryptogen", args...)
 	Expect(err).NotTo(HaveOccurred())
 	c.Paths["cryptogen"] = cryptogen
 
-	idemixgen, err := gexec.Build("github.com/hyperledger/fabric/common/tools/idemixgen", args...)
+	idemixgen, err := gexec.Build("github.com/sinochem-tech/fabric/common/tools/idemixgen", args...)
 	Expect(err).NotTo(HaveOccurred())
 	c.Paths["idemixgen"] = idemixgen
 
-	configtxgen, err := gexec.Build("github.com/hyperledger/fabric/common/tools/configtxgen", args...)
+	configtxgen, err := gexec.Build("github.com/sinochem-tech/fabric/common/tools/configtxgen", args...)
 	Expect(err).NotTo(HaveOccurred())
 	c.Paths["configtxgen"] = configtxgen
 
-	orderer, err := gexec.Build("github.com/hyperledger/fabric/orderer", args...)
+	orderer, err := gexec.Build("github.com/sinochem-tech/fabric/orderer", args...)
 	Expect(err).NotTo(HaveOccurred())
 	c.Paths["orderer"] = orderer
 
-	peer, err := gexec.Build("github.com/hyperledger/fabric/peer", args...)
+	peer, err := gexec.Build("github.com/sinochem-tech/fabric/peer", args...)
 	Expect(err).NotTo(HaveOccurred())
 	c.Paths["peer"] = peer
 }

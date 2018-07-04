@@ -10,8 +10,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/bccsp/mocks"
+	"github.com/sinochem-tech/fabric/bccsp/factory"
+	"github.com/sinochem-tech/fabric/bccsp/mocks"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -13,13 +13,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/core/ledger/pvtdatapolicy"
+	"github.com/sinochem-tech/fabric/core/ledger/pvtdatapolicy"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	btltestutil "github.com/hyperledger/fabric/core/ledger/pvtdatapolicy/testutil"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	btltestutil "github.com/sinochem-tech/fabric/core/ledger/pvtdatapolicy/testutil"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

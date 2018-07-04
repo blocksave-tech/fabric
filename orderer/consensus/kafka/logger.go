@@ -12,7 +12,7 @@ import (
 	"sync"
 
 	"github.com/Shopify/sarama"
-	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/flogging"
 	logging "github.com/op/go-logging"
 )
 

@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
 )
 
 const testDBPath = "/tmp/fabric/ledgertests/util/leveldbhelper"

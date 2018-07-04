@@ -17,8 +17,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/hyperledger/fabric/core/chaincode/platforms/java"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/core/chaincode/platforms/java"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/common"
+	"github.com/sinochem-tech/fabric/gossip/common"
 )
 
 var noopLock = func() {}

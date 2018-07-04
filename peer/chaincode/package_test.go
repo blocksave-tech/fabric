@@ -24,10 +24,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/peer/common"
-	pcommon "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/msp"
+	"github.com/sinochem-tech/fabric/peer/common"
+	pcommon "github.com/sinochem-tech/fabric/protos/common"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 )
 
 func newTempDir() string {

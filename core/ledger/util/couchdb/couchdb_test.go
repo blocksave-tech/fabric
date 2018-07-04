@@ -16,10 +16,10 @@ import (
 	"time"
 	"unicode/utf8"
 
-	logging "github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	ledgertestutil "github.com/hyperledger/fabric/core/ledger/testutil"
-	"github.com/hyperledger/fabric/integration/runner"
+	logging "github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	ledgertestutil "github.com/sinochem-tech/fabric/core/ledger/testutil"
+	"github.com/sinochem-tech/fabric/integration/runner"
 	"github.com/spf13/viper"
 )
 

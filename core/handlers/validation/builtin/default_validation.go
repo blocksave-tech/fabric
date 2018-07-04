@@ -10,13 +10,13 @@ import (
 	"fmt"
 	"reflect"
 
-	commonerrors "github.com/hyperledger/fabric/common/errors"
-	"github.com/hyperledger/fabric/core/handlers/validation/api"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/capabilities"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/identities"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/policies"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api/state"
-	"github.com/hyperledger/fabric/protos/common"
+	commonerrors "github.com/sinochem-tech/fabric/common/errors"
+	"github.com/sinochem-tech/fabric/core/handlers/validation/api"
+	. "github.com/sinochem-tech/fabric/core/handlers/validation/api/capabilities"
+	. "github.com/sinochem-tech/fabric/core/handlers/validation/api/identities"
+	. "github.com/sinochem-tech/fabric/core/handlers/validation/api/policies"
+	. "github.com/sinochem-tech/fabric/core/handlers/validation/api/state"
+	"github.com/sinochem-tech/fabric/protos/common"
 	"github.com/pkg/errors"
 )
 

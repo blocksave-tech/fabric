@@ -19,7 +19,7 @@ package crypto
 import (
 	"testing"
 
-	crypto "github.com/hyperledger/fabric/common/crypto"
+	crypto "github.com/sinochem-tech/fabric/common/crypto"
 )
 
 func TestLocalSignerInterface(t *testing.T) {

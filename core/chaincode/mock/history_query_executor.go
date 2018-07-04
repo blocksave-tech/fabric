@@ -4,7 +4,7 @@ package mock
 import (
 	"sync"
 
-	commonledger "github.com/hyperledger/fabric/common/ledger"
+	commonledger "github.com/sinochem-tech/fabric/common/ledger"
 )
 
 type HistoryQueryExecutor struct {

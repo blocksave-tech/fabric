@@ -9,7 +9,7 @@ package configtx
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/configtx"
+	"github.com/sinochem-tech/fabric/common/configtx"
 )
 
 func TestConfigtxValidatorInterface(t *testing.T) {

@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package filter
 
 import (
-	"github.com/hyperledger/fabric/core/handlers/auth"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/core/handlers/auth"
+	"github.com/sinochem-tech/fabric/protos/peer"
 	"golang.org/x/net/context"
 )
 

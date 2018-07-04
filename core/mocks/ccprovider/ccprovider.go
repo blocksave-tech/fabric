@@ -9,11 +9,11 @@ package ccprovider
 import (
 	"context"
 
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/protos/peer"
+	commonledger "github.com/sinochem-tech/fabric/common/ledger"
+	"github.com/sinochem-tech/fabric/core/chaincode/shim"
+	"github.com/sinochem-tech/fabric/core/common/ccprovider"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/protos/peer"
 )
 
 type ExecuteChaincodeResultProvider interface {

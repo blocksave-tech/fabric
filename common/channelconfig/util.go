@@ -9,11 +9,11 @@ package channelconfig
 import (
 	"math"
 
-	"github.com/hyperledger/fabric/bccsp"
-	cb "github.com/hyperledger/fabric/protos/common"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/bccsp"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	mspprotos "github.com/sinochem-tech/fabric/protos/msp"
+	ab "github.com/sinochem-tech/fabric/protos/orderer"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 
 	"github.com/golang/protobuf/proto"
 )

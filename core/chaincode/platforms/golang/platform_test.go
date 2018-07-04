@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/core/config/configtest"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/core/config/configtest"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -121,12 +121,12 @@ func Test_findSource(t *testing.T) {
 
 	var source SourceMap
 
-	source, err = findSource(gopath, "github.com/hyperledger/fabric/peer")
+	source, err = findSource(gopath, "github.com/sinochem-tech/fabric/peer")
 	if err != nil {
 		t.Errorf("failed to find source: %s", err)
 	}
 
-	if _, ok := source["src/github.com/hyperledger/fabric/peer/main.go"]; !ok {
+	if _, ok := source["src/github.com/sinochem-tech/fabric/peer/main.go"]; !ok {
 		t.Errorf("Failed to find expected source file: %v", source)
 	}
 
@@ -140,7 +140,7 @@ func Test_DeploymentPayload(t *testing.T) {
 	platform := &Platform{}
 	spec := &pb.ChaincodeSpec{
 		ChaincodeId: &pb.ChaincodeID{
-			Path: "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd",
+			Path: "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd",
 		},
 	}
 
@@ -170,7 +170,7 @@ func Test_DeploymentPayloadWithStateDBArtifacts(t *testing.T) {
 	platform := &Platform{}
 	spec := &pb.ChaincodeSpec{
 		ChaincodeId: &pb.ChaincodeID{
-			Path: "github.com/hyperledger/fabric/examples/chaincode/go/marbles02",
+			Path: "github.com/sinochem-tech/fabric/examples/chaincode/go/marbles02",
 		},
 	}
 
@@ -205,7 +205,7 @@ func Test_decodeUrl(t *testing.T) {
 	cs := &pb.ChaincodeSpec{
 		ChaincodeId: &pb.ChaincodeID{
 			Name: "Test Chaincode",
-			Path: "http://github.com/hyperledger/fabric/examples/chaincode/go/map",
+			Path: "http://github.com/sinochem-tech/fabric/examples/chaincode/go/map",
 		},
 	}
 
@@ -243,11 +243,11 @@ func TestValidateSpec(t *testing.T) {
 		spec *pb.ChaincodeSpec
 		succ bool
 	}{
-		{spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: "http://github.com/hyperledger/fabric/examples/chaincode/go/map"}}, succ: true},
-		{spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: "https://github.com/hyperledger/fabric/examples/chaincode/go/map"}}, succ: true},
-		{spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: "github.com/hyperledger/fabric/examples/chaincode/go/map"}}, succ: true},
-		{spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: "github.com/hyperledger/fabric/bad/chaincode/go/map"}}, succ: false},
-		{spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: ":github.com/hyperledger/fabric/examples/chaincode/go/map"}}, succ: false},
+		{spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: "http://github.com/sinochem-tech/fabric/examples/chaincode/go/map"}}, succ: true},
+		{spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: "https://github.com/sinochem-tech/fabric/examples/chaincode/go/map"}}, succ: true},
+		{spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: "github.com/sinochem-tech/fabric/examples/chaincode/go/map"}}, succ: true},
+		{spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: "github.com/sinochem-tech/fabric/bad/chaincode/go/map"}}, succ: false},
+		{spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: ":github.com/sinochem-tech/fabric/examples/chaincode/go/map"}}, succ: false},
 	}
 
 	for _, tst := range tests {
@@ -287,8 +287,8 @@ func TestGetDeploymentPayload(t *testing.T) {
 		spec   *pb.ChaincodeSpec
 		succ   bool
 	}{
-		{gopath: defaultGopath, spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: "github.com/hyperledger/fabric/examples/chaincode/go/map"}}, succ: true},
-		{gopath: defaultGopath, spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: "github.com/hyperledger/fabric/examples/bad/go/map"}}, succ: false},
+		{gopath: defaultGopath, spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: "github.com/sinochem-tech/fabric/examples/chaincode/go/map"}}, succ: true},
+		{gopath: defaultGopath, spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: "github.com/sinochem-tech/fabric/examples/bad/go/map"}}, succ: false},
 		{gopath: testdataPath, spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: "chaincodes/BadImport"}}, succ: false},
 		{gopath: testdataPath, spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: "chaincodes/BadMetadataInvalidIndex"}}, succ: false},
 		{gopath: testdataPath, spec: &pb.ChaincodeSpec{ChaincodeId: &pb.ChaincodeID{Name: "Test Chaincode", Path: "chaincodes/BadMetadataUnexpectedFolderContent"}}, succ: false},
@@ -331,9 +331,9 @@ func TestGenerateDockerBuild(t *testing.T) {
 	}{
 		{gopath: defaultGopath, spec: spec{CCName: "NoCode", Path: "path/to/nowhere", File: "/bin/warez", Mode: 0100400, SuccessExpected: false}},
 		{gopath: defaultGopath, spec: spec{CCName: "invalidhttp", Path: "https://not/a/valid/path", SuccessExpected: false, RealGen: true}},
-		{gopath: defaultGopath, spec: spec{CCName: "map", Path: "github.com/hyperledger/fabric/examples/chaincode/go/map", SuccessExpected: true, RealGen: true}},
-		{gopath: defaultGopath, spec: spec{CCName: "mapBadPath", Path: "github.com/hyperledger/fabric/examples/chaincode/go/map", File: "/src/github.com/hyperledger/fabric/examples/bad/path/to/map.go", Mode: 0100400, SuccessExpected: false}},
-		{gopath: defaultGopath, spec: spec{CCName: "mapBadMode", Path: "github.com/hyperledger/fabric/examples/chaincode/go/map", File: "/src/github.com/hyperledger/fabric/examples/chaincode/go/map/map.go", Mode: 0100555, SuccessExpected: false}},
+		{gopath: defaultGopath, spec: spec{CCName: "map", Path: "github.com/sinochem-tech/fabric/examples/chaincode/go/map", SuccessExpected: true, RealGen: true}},
+		{gopath: defaultGopath, spec: spec{CCName: "mapBadPath", Path: "github.com/sinochem-tech/fabric/examples/chaincode/go/map", File: "/src/github.com/sinochem-tech/fabric/examples/bad/path/to/map.go", Mode: 0100400, SuccessExpected: false}},
+		{gopath: defaultGopath, spec: spec{CCName: "mapBadMode", Path: "github.com/sinochem-tech/fabric/examples/chaincode/go/map", File: "/src/github.com/sinochem-tech/fabric/examples/chaincode/go/map/map.go", Mode: 0100555, SuccessExpected: false}},
 		{gopath: testdataPath, spec: spec{CCName: "AutoVendor", Path: "chaincodes/AutoVendor/chaincode", SuccessExpected: true, RealGen: true}},
 	}
 

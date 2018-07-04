@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/core/deliverservice/mocks"
-	"github.com/hyperledger/fabric/gossip/api"
-	common2 "github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
+	"github.com/sinochem-tech/fabric/core/comm"
+	"github.com/sinochem-tech/fabric/core/deliverservice/mocks"
+	"github.com/sinochem-tech/fabric/gossip/api"
+	common2 "github.com/sinochem-tech/fabric/gossip/common"
+	"github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/orderer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

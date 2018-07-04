@@ -12,11 +12,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/cmd/common"
-	"github.com/hyperledger/fabric/cmd/common/comm"
-	"github.com/hyperledger/fabric/cmd/common/signer"
-	c "github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/discovery/client"
+	"github.com/sinochem-tech/fabric/cmd/common"
+	"github.com/sinochem-tech/fabric/cmd/common/comm"
+	"github.com/sinochem-tech/fabric/cmd/common/signer"
+	c "github.com/sinochem-tech/fabric/core/comm"
+	"github.com/sinochem-tech/fabric/discovery/client"
 	"github.com/stretchr/testify/assert"
 )
 

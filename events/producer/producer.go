@@ -11,9 +11,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/comm"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/core/comm"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 )
 
 var logger = flogging.MustGetLogger("eventhub_producer")

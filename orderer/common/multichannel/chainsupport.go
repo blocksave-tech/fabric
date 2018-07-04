@@ -7,13 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package multichannel
 
 import (
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/common/ledger/blockledger"
-	"github.com/hyperledger/fabric/orderer/common/blockcutter"
-	"github.com/hyperledger/fabric/orderer/common/msgprocessor"
-	"github.com/hyperledger/fabric/orderer/consensus"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/crypto"
+	"github.com/sinochem-tech/fabric/common/ledger/blockledger"
+	"github.com/sinochem-tech/fabric/orderer/common/blockcutter"
+	"github.com/sinochem-tech/fabric/orderer/common/msgprocessor"
+	"github.com/sinochem-tech/fabric/orderer/consensus"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/utils"
 
 	"github.com/pkg/errors"
 )

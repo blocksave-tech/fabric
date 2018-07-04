@@ -9,8 +9,8 @@ package cceventmgmt
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/common/sysccprovider"
+	"github.com/sinochem-tech/fabric/core/common/ccprovider"
+	"github.com/sinochem-tech/fabric/core/common/sysccprovider"
 )
 
 // ChaincodeDefinition captures the info about chaincode

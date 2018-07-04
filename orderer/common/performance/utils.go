@@ -12,13 +12,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric/common/localmsp"
-	"github.com/hyperledger/fabric/common/tools/configtxgen/encoder"
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
+	"github.com/sinochem-tech/fabric/common/localmsp"
+	"github.com/sinochem-tech/fabric/common/tools/configtxgen/encoder"
+	genesisconfig "github.com/sinochem-tech/fabric/common/tools/configtxgen/localconfig"
 
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	protosutils "github.com/hyperledger/fabric/protos/utils"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	ab "github.com/sinochem-tech/fabric/protos/orderer"
+	protosutils "github.com/sinochem-tech/fabric/protos/utils"
 )
 
 const (

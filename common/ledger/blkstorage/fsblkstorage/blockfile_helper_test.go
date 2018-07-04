@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/common/ledger/util"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	"github.com/sinochem-tech/fabric/common/ledger/util"
 )
 
 func TestConstructCheckpointInfoFromBlockFiles(t *testing.T) {

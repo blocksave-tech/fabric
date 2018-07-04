@@ -16,7 +16,7 @@ limitations under the License.
 
 package stateleveldb
 
-import "github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
+import "github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/version"
 
 //EncodeValue appends the value to the version, allows storage of version and value in binary form
 func EncodeValue(value []byte, version *version.Height) []byte {

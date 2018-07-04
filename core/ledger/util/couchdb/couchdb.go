@@ -26,8 +26,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/core/ledger/ledgerconfig"
 	logging "github.com/op/go-logging"
 )
 
@@ -778,7 +778,7 @@ func (dbclient *CouchDatabase) ReadDoc(id string) (*CouchDoc, string, error) {
 		if couchDBReturn != nil && couchDBReturn.StatusCode == 404 {
 			logger.Debug("Document not found (404), returning nil value instead of 404 error")
 			// non-existent document should return nil value instead of a 404 error
-			// for details see https://github.com/hyperledger-archives/fabric/issues/936
+			// for details see https://github.com/sinochem-tech-archives/fabric/issues/936
 			return nil, "", nil
 		}
 		logger.Debugf("couchDBReturn=%v\n", couchDBReturn)
@@ -1016,7 +1016,7 @@ func (dbclient *CouchDatabase) DeleteDoc(id, rev string) error {
 		if couchDBReturn != nil && couchDBReturn.StatusCode == 404 {
 			logger.Debug("Document not found (404), returning nil value instead of 404 error")
 			// non-existent document should return nil value instead of a 404 error
-			// for details see https://github.com/hyperledger-archives/fabric/issues/936
+			// for details see https://github.com/sinochem-tech-archives/fabric/issues/936
 			return nil
 		}
 		return err

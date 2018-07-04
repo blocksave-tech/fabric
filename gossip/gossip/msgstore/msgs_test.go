@@ -14,8 +14,8 @@ import (
 
 	"sync"
 
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/util"
+	"github.com/sinochem-tech/fabric/gossip/common"
+	"github.com/sinochem-tech/fabric/gossip/util"
 	"github.com/stretchr/testify/assert"
 )
 

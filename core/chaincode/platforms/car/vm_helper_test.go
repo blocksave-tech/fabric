@@ -11,10 +11,10 @@ import (
 	"fmt"
 
 	"github.com/fsouza/go-dockerclient"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/container"
-	cutil "github.com/hyperledger/fabric/core/container/util"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/core/chaincode/platforms"
+	"github.com/sinochem-tech/fabric/core/container"
+	cutil "github.com/sinochem-tech/fabric/core/container/util"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 )
 
 // VM implementation of VM management functionality.

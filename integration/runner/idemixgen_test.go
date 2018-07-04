@@ -11,7 +11,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hyperledger/fabric/integration/runner"
+	"github.com/sinochem-tech/fabric/integration/runner"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 

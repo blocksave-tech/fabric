@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/core/comm"
-	testpb "github.com/hyperledger/fabric/core/comm/testdata/grpc"
+	"github.com/sinochem-tech/fabric/core/comm"
+	testpb "github.com/sinochem-tech/fabric/core/comm/testdata/grpc"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

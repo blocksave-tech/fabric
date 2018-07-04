@@ -13,8 +13,8 @@ import (
 
 	"io"
 
-	"github.com/hyperledger/fabric/cmd/common/comm"
-	"github.com/hyperledger/fabric/cmd/common/signer"
+	"github.com/sinochem-tech/fabric/cmd/common/comm"
+	"github.com/sinochem-tech/fabric/cmd/common/signer"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
 

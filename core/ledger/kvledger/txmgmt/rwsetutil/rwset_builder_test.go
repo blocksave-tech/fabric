@@ -21,12 +21,12 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/sinochem-tech/fabric/core/ledger/util"
+	"github.com/sinochem-tech/fabric/protos/ledger/rwset"
+	"github.com/sinochem-tech/fabric/protos/ledger/rwset/kvrwset"
 	"github.com/stretchr/testify/assert"
 )
 

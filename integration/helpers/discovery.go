@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package helpers
 
 import (
-	"github.com/hyperledger/fabric/protos/discovery"
+	"github.com/sinochem-tech/fabric/protos/discovery"
 )
 
 type DiscoveredPeer struct {

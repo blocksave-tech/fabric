@@ -12,7 +12,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

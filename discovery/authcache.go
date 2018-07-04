@@ -11,8 +11,8 @@ import (
 	"encoding/hex"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/common/util"
+	"github.com/sinochem-tech/fabric/protos/common"
 	"github.com/pkg/errors"
 )
 

@@ -9,11 +9,11 @@ package builtin
 import (
 	"testing"
 
-	commonerrors "github.com/hyperledger/fabric/common/errors"
-	"github.com/hyperledger/fabric/core/committer/txvalidator"
-	. "github.com/hyperledger/fabric/core/handlers/validation/api"
-	"github.com/hyperledger/fabric/core/handlers/validation/builtin/mocks"
-	"github.com/hyperledger/fabric/protos/common"
+	commonerrors "github.com/sinochem-tech/fabric/common/errors"
+	"github.com/sinochem-tech/fabric/core/committer/txvalidator"
+	. "github.com/sinochem-tech/fabric/core/handlers/validation/api"
+	"github.com/sinochem-tech/fabric/core/handlers/validation/builtin/mocks"
+	"github.com/sinochem-tech/fabric/protos/common"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

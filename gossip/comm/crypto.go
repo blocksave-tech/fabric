@@ -15,7 +15,7 @@ import (
 	"encoding/pem"
 	"math/big"
 
-	"github.com/hyperledger/fabric/common/util"
+	"github.com/sinochem-tech/fabric/common/util"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/peer"

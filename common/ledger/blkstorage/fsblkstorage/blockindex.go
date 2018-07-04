@@ -22,12 +22,12 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/ledger/blkstorage"
-	"github.com/hyperledger/fabric/common/ledger/util"
-	"github.com/hyperledger/fabric/common/ledger/util/leveldbhelper"
-	ledgerUtil "github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/common/ledger/blkstorage"
+	"github.com/sinochem-tech/fabric/common/ledger/util"
+	"github.com/sinochem-tech/fabric/common/ledger/util/leveldbhelper"
+	ledgerUtil "github.com/sinochem-tech/fabric/core/ledger/util"
+	"github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/peer"
 )
 
 const (

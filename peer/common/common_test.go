@@ -12,10 +12,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/peer/common"
+	"github.com/sinochem-tech/fabric/common/util"
+	"github.com/sinochem-tech/fabric/core/config/configtest"
+	"github.com/sinochem-tech/fabric/msp"
+	"github.com/sinochem-tech/fabric/peer/common"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

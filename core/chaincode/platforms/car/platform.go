@@ -25,10 +25,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hyperledger/fabric/core/chaincode/platforms/ccmetadata"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/util"
-	cutil "github.com/hyperledger/fabric/core/container/util"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/core/chaincode/platforms/ccmetadata"
+	"github.com/sinochem-tech/fabric/core/chaincode/platforms/util"
+	cutil "github.com/sinochem-tech/fabric/core/container/util"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 )
 
 // Platform for the CAR type

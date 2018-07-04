@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/ledger/blkstorage"
-	"github.com/hyperledger/fabric/common/ledger/blkstorage/fsblkstorage"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
-	"github.com/hyperledger/fabric/core/ledger/pvtdatapolicy"
-	"github.com/hyperledger/fabric/core/ledger/pvtdatastorage"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/ledger/blkstorage"
+	"github.com/sinochem-tech/fabric/common/ledger/blkstorage/fsblkstorage"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/core/ledger/ledgerconfig"
+	"github.com/sinochem-tech/fabric/core/ledger/pvtdatapolicy"
+	"github.com/sinochem-tech/fabric/core/ledger/pvtdatastorage"
+	"github.com/sinochem-tech/fabric/protos/common"
 )
 
 var logger = flogging.MustGetLogger("ledgerstorage")

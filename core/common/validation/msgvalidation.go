@@ -20,13 +20,13 @@ import (
 	"bytes"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/common/flogging"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/msp"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/channelconfig"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	mspmgmt "github.com/sinochem-tech/fabric/msp/mgmt"
+	"github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/msp"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/protos/utils"
 	"github.com/pkg/errors"
 )
 

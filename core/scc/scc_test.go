@@ -11,11 +11,11 @@ import (
 	"os"
 	"testing"
 
-	aclmocks "github.com/hyperledger/fabric/core/aclmgmt/mocks"
-	"github.com/hyperledger/fabric/core/container/inproccontroller"
-	"github.com/hyperledger/fabric/core/ledger/ledgermgmt"
-	ccprovider2 "github.com/hyperledger/fabric/core/mocks/ccprovider"
-	"github.com/hyperledger/fabric/core/peer"
+	aclmocks "github.com/sinochem-tech/fabric/core/aclmgmt/mocks"
+	"github.com/sinochem-tech/fabric/core/container/inproccontroller"
+	"github.com/sinochem-tech/fabric/core/ledger/ledgermgmt"
+	ccprovider2 "github.com/sinochem-tech/fabric/core/mocks/ccprovider"
+	"github.com/sinochem-tech/fabric/core/peer"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

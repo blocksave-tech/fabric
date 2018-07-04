@@ -28,7 +28,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/sinochem-tech/fabric/bccsp/utils"
 )
 
 func TestInvalidStoreKey(t *testing.T) {

@@ -7,11 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package chaincode_test
 
 import (
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/chaincode"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/container/ccintf"
-	"github.com/hyperledger/fabric/core/ledger"
+	commonledger "github.com/sinochem-tech/fabric/common/ledger"
+	"github.com/sinochem-tech/fabric/core/chaincode"
+	"github.com/sinochem-tech/fabric/core/common/ccprovider"
+	"github.com/sinochem-tech/fabric/core/container/ccintf"
+	"github.com/sinochem-tech/fabric/core/ledger"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 

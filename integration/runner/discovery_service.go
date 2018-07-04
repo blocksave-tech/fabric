@@ -15,8 +15,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hyperledger/fabric/integration/helpers"
-	"github.com/hyperledger/fabric/protos/discovery"
+	"github.com/sinochem-tech/fabric/integration/helpers"
+	"github.com/sinochem-tech/fabric/protos/discovery"
 	. "github.com/onsi/gomega"
 
 	"github.com/tedsuo/ifrit/ginkgomon"

@@ -18,12 +18,12 @@ import (
 	"google.golang.org/grpc"
 
 	"github.com/golang/protobuf/ptypes/timestamp"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/comm"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	ehpb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/util"
+	"github.com/sinochem-tech/fabric/core/comm"
+	mspmgmt "github.com/sinochem-tech/fabric/msp/mgmt"
+	ehpb "github.com/sinochem-tech/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/protos/utils"
 )
 
 var consumerLogger = flogging.MustGetLogger("eventhub_consumer")

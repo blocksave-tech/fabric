@@ -14,8 +14,8 @@ limitations under the License.
 package blockledger
 
 import (
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	ab "github.com/sinochem-tech/fabric/protos/orderer"
 )
 
 // Factory retrieves or creates new ledgers by chainID

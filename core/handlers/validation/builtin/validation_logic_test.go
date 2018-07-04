@@ -14,35 +14,35 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/capabilities"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/common/channelconfig"
-	mc "github.com/hyperledger/fabric/common/mocks/config"
-	lm "github.com/hyperledger/fabric/common/mocks/ledger"
-	"github.com/hyperledger/fabric/common/mocks/scc"
-	"github.com/hyperledger/fabric/common/util"
-	aclmocks "github.com/hyperledger/fabric/core/aclmgmt/mocks"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/committer/txvalidator"
-	mocks2 "github.com/hyperledger/fabric/core/committer/txvalidator/mocks"
-	"github.com/hyperledger/fabric/core/common/ccpackage"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/common/privdata"
-	cutils "github.com/hyperledger/fabric/core/container/util"
-	"github.com/hyperledger/fabric/core/handlers/validation/api/capabilities"
-	"github.com/hyperledger/fabric/core/handlers/validation/builtin/mocks"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	per "github.com/hyperledger/fabric/core/peer"
-	"github.com/hyperledger/fabric/core/policy"
-	"github.com/hyperledger/fabric/core/scc/lscc"
-	"github.com/hyperledger/fabric/msp"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
-	mspproto "github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/capabilities"
+	"github.com/sinochem-tech/fabric/common/cauthdsl"
+	"github.com/sinochem-tech/fabric/common/channelconfig"
+	mc "github.com/sinochem-tech/fabric/common/mocks/config"
+	lm "github.com/sinochem-tech/fabric/common/mocks/ledger"
+	"github.com/sinochem-tech/fabric/common/mocks/scc"
+	"github.com/sinochem-tech/fabric/common/util"
+	aclmocks "github.com/sinochem-tech/fabric/core/aclmgmt/mocks"
+	"github.com/sinochem-tech/fabric/core/chaincode/shim"
+	"github.com/sinochem-tech/fabric/core/committer/txvalidator"
+	mocks2 "github.com/sinochem-tech/fabric/core/committer/txvalidator/mocks"
+	"github.com/sinochem-tech/fabric/core/common/ccpackage"
+	"github.com/sinochem-tech/fabric/core/common/ccprovider"
+	"github.com/sinochem-tech/fabric/core/common/privdata"
+	cutils "github.com/sinochem-tech/fabric/core/container/util"
+	"github.com/sinochem-tech/fabric/core/handlers/validation/api/capabilities"
+	"github.com/sinochem-tech/fabric/core/handlers/validation/builtin/mocks"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	per "github.com/sinochem-tech/fabric/core/peer"
+	"github.com/sinochem-tech/fabric/core/policy"
+	"github.com/sinochem-tech/fabric/core/scc/lscc"
+	"github.com/sinochem-tech/fabric/msp"
+	mspmgmt "github.com/sinochem-tech/fabric/msp/mgmt"
+	"github.com/sinochem-tech/fabric/msp/mgmt/testtools"
+	"github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/ledger/rwset/kvrwset"
+	mspproto "github.com/sinochem-tech/fabric/protos/msp"
+	"github.com/sinochem-tech/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/protos/utils"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )
@@ -747,7 +747,7 @@ func TestAlreadyDeployed(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 
@@ -1120,7 +1120,7 @@ func TestValidateUpgradeOK(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 
@@ -1186,7 +1186,7 @@ func TestInvalidateUpgradeBadVersion(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 
@@ -1264,7 +1264,7 @@ func validateUpgradeWithCollection(t *testing.T, V1_2Validation bool) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 
@@ -1446,7 +1446,7 @@ func TestValidateUpgradeWithPoliciesOK(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 
@@ -1537,7 +1537,7 @@ func validateUpgradeWithNewFailAllIP(t *testing.T, v11capability, expecterr bool
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd"
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 
 	os.Remove(ppath)
@@ -1615,7 +1615,7 @@ func TestValidateUpgradeWithPoliciesFail(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	path := "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 

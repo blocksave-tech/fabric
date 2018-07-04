@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"testing"
 
-	common "github.com/hyperledger/fabric/common/metadata"
-	"github.com/hyperledger/fabric/orderer/common/metadata"
+	common "github.com/sinochem-tech/fabric/common/metadata"
+	"github.com/sinochem-tech/fabric/orderer/common/metadata"
 	"github.com/stretchr/testify/assert"
 )
 

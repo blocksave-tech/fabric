@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/core/config/configtest"
+	"github.com/sinochem-tech/fabric/core/config/configtest"
 	. "github.com/onsi/gomega"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"

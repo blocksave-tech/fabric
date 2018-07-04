@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package chaincode_test
 
 import (
-	"github.com/hyperledger/fabric/core/chaincode"
-	"github.com/hyperledger/fabric/core/chaincode/mock"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/core/chaincode"
+	"github.com/sinochem-tech/fabric/core/chaincode/mock"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"golang.org/x/net/context"

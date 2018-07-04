@@ -4,7 +4,7 @@ package mock
 import (
 	"sync"
 
-	cb "github.com/hyperledger/fabric/protos/common"
+	cb "github.com/sinochem-tech/fabric/protos/common"
 )
 
 type ConfigtxValidator struct {

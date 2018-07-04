@@ -9,11 +9,11 @@ package gossip_test
 import (
 	"testing"
 
-	gossipSupport "github.com/hyperledger/fabric/discovery/support/gossip"
-	"github.com/hyperledger/fabric/discovery/support/mocks"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/protos/gossip"
+	gossipSupport "github.com/sinochem-tech/fabric/discovery/support/gossip"
+	"github.com/sinochem-tech/fabric/discovery/support/mocks"
+	"github.com/sinochem-tech/fabric/gossip/common"
+	"github.com/sinochem-tech/fabric/gossip/discovery"
+	"github.com/sinochem-tech/fabric/protos/gossip"
 	"github.com/stretchr/testify/assert"
 )
 

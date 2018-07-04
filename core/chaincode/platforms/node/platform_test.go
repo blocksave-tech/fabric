@@ -19,8 +19,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/config/configtest"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/core/config/configtest"
+	"github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/spf13/viper"
 )
 

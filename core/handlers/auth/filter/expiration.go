@@ -9,10 +9,10 @@ package filter
 import (
 	"time"
 
-	"github.com/hyperledger/fabric/common/crypto"
-	"github.com/hyperledger/fabric/core/handlers/auth"
-	"github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/crypto"
+	"github.com/sinochem-tech/fabric/core/handlers/auth"
+	"github.com/sinochem-tech/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/protos/utils"
 	"github.com/pkg/errors"
 	"golang.org/x/net/context"
 )

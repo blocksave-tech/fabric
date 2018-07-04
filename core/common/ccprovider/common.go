@@ -9,7 +9,7 @@ package ccprovider
 import (
 	"path/filepath"
 
-	"github.com/hyperledger/fabric/core/config"
+	"github.com/sinochem-tech/fabric/core/config"
 )
 
 // GetCCsPath returns the path where chaincodes are installed

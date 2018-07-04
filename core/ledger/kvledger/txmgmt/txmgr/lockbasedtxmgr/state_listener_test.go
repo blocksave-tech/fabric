@@ -8,12 +8,12 @@ package lockbasedtxmgr
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/core/ledger/mock"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/sinochem-tech/fabric/core/ledger/mock"
+	"github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/ledger/rwset/kvrwset"
 	"github.com/stretchr/testify/assert"
 )
 

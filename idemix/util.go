@@ -10,8 +10,8 @@ import (
 	"crypto/rand"
 	"crypto/sha256"
 
-	"github.com/hyperledger/fabric-amcl/amcl"
-	"github.com/hyperledger/fabric-amcl/amcl/FP256BN"
+	"github.com/sinochem-tech/fabric-amcl/amcl"
+	"github.com/sinochem-tech/fabric-amcl/amcl/FP256BN"
 	"github.com/pkg/errors"
 )
 

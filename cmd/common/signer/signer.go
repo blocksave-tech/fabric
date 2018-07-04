@@ -15,10 +15,10 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/hyperledger/fabric/bccsp/utils"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/protos/msp"
-	proto_utils "github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/bccsp/utils"
+	"github.com/sinochem-tech/fabric/common/util"
+	"github.com/sinochem-tech/fabric/protos/msp"
+	proto_utils "github.com/sinochem-tech/fabric/protos/utils"
 	"github.com/pkg/errors"
 )
 

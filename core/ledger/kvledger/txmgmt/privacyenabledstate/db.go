@@ -9,9 +9,9 @@ package privacyenabledstate
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/core/ledger/cceventmgmt"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/sinochem-tech/fabric/core/ledger/cceventmgmt"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/version"
 )
 
 // DBProvider provides handle to a PvtVersionedDB

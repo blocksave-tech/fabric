@@ -6,7 +6,7 @@ package common
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import common1 "github.com/hyperledger/fabric/protos/msp"
+import common1 "github.com/sinochem-tech/fabric/protos/msp"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

@@ -21,9 +21,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/ledger/blkstorage"
-	"github.com/hyperledger/fabric/common/ledger/blockledger"
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
+	"github.com/sinochem-tech/fabric/common/ledger/blkstorage"
+	"github.com/sinochem-tech/fabric/common/ledger/blockledger"
+	genesisconfig "github.com/sinochem-tech/fabric/common/tools/configtxgen/localconfig"
 	"github.com/stretchr/testify/assert"
 )
 

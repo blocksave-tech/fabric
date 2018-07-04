@@ -9,9 +9,9 @@ package channelconfig
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
+	"github.com/sinochem-tech/fabric/msp"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	mspprotos "github.com/sinochem-tech/fabric/protos/msp"
 
 	"github.com/pkg/errors"
 )

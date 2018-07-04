@@ -19,9 +19,9 @@ package chaincode
 import (
 	"context"
 
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/ledger"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/core/common/ccprovider"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 )
 
 // ccProviderImpl is an implementation of the ccprovider.ChaincodeProvider interface

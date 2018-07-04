@@ -9,12 +9,12 @@ package blockcutter
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/hyperledger/fabric/orderer/common/blockcutter/mock"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	"github.com/sinochem-tech/fabric/common/channelconfig"
+	"github.com/sinochem-tech/fabric/orderer/common/blockcutter/mock"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	ab "github.com/sinochem-tech/fabric/protos/orderer"
 
-	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/flogging"
 	"github.com/stretchr/testify/assert"
 )
 

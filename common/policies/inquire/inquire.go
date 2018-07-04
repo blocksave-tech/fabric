@@ -9,10 +9,10 @@ package inquire
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/graph"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/graph"
+	"github.com/sinochem-tech/fabric/common/policies"
+	"github.com/sinochem-tech/fabric/protos/common"
 )
 
 var logger = flogging.MustGetLogger("policies/inquire")

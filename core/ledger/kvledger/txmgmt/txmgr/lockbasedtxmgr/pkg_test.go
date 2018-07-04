@@ -20,16 +20,16 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/bookkeeping"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/txmgr"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/core/ledger/pvtdatapolicy"
-	"github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/bookkeeping"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/txmgr"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/sinochem-tech/fabric/core/ledger/pvtdatapolicy"
+	"github.com/sinochem-tech/fabric/core/ledger/util"
+	"github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/ledger/rwset"
 )
 
 type testEnv interface {

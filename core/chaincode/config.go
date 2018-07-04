@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/flogging"
 	logging "github.com/op/go-logging"
 	"github.com/spf13/viper"
 )

@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	"github.com/hyperledger/fabric/integration/helpers"
-	"github.com/hyperledger/fabric/integration/runner"
-	. "github.com/hyperledger/fabric/integration/world"
+	"github.com/sinochem-tech/fabric/common/tools/configtxgen/localconfig"
+	"github.com/sinochem-tech/fabric/integration/helpers"
+	"github.com/sinochem-tech/fabric/integration/runner"
+	. "github.com/sinochem-tech/fabric/integration/world"
 	"github.com/tedsuo/ifrit"
 
 	docker "github.com/fsouza/go-dockerclient"
@@ -260,7 +260,7 @@ var _ = Describe("Config", func() {
 				Chaincode: Chaincode{
 					Name:     "mycc",
 					Version:  "1.0",
-					Path:     "github.com/hyperledger/fabric/integration/chaincode/simple/cmd",
+					Path:     "github.com/sinochem-tech/fabric/integration/chaincode/simple/cmd",
 					ExecPath: os.Getenv("PATH"),
 				},
 				Orderer:  "127.0.0.1:9050",

@@ -10,14 +10,14 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/gossip/api"
-	gcommon "github.com/hyperledger/fabric/gossip/common"
-	disc "github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/discovery"
-	"github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/policies"
+	"github.com/sinochem-tech/fabric/gossip/api"
+	gcommon "github.com/sinochem-tech/fabric/gossip/common"
+	disc "github.com/sinochem-tech/fabric/gossip/discovery"
+	"github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/discovery"
+	"github.com/sinochem-tech/fabric/protos/msp"
+	"github.com/sinochem-tech/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

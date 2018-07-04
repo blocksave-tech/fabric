@@ -14,15 +14,15 @@ import (
 
 	"strings"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/metadata"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/car"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/ccmetadata"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/golang"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/java"
-	"github.com/hyperledger/fabric/core/chaincode/platforms/node"
-	cutil "github.com/hyperledger/fabric/core/container/util"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/metadata"
+	"github.com/sinochem-tech/fabric/core/chaincode/platforms/car"
+	"github.com/sinochem-tech/fabric/core/chaincode/platforms/ccmetadata"
+	"github.com/sinochem-tech/fabric/core/chaincode/platforms/golang"
+	"github.com/sinochem-tech/fabric/core/chaincode/platforms/java"
+	"github.com/sinochem-tech/fabric/core/chaincode/platforms/node"
+	cutil "github.com/sinochem-tech/fabric/core/container/util"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 )
 
 // Interface for validating the specification and and writing the package for

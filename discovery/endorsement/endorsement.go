@@ -9,16 +9,16 @@ package endorsement
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/chaincode"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/graph"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/common/policies/inquire"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/common"
-	. "github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/protos/discovery"
-	"github.com/hyperledger/fabric/protos/msp"
+	"github.com/sinochem-tech/fabric/common/chaincode"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/graph"
+	"github.com/sinochem-tech/fabric/common/policies"
+	"github.com/sinochem-tech/fabric/common/policies/inquire"
+	"github.com/sinochem-tech/fabric/gossip/api"
+	"github.com/sinochem-tech/fabric/gossip/common"
+	. "github.com/sinochem-tech/fabric/gossip/discovery"
+	"github.com/sinochem-tech/fabric/protos/discovery"
+	"github.com/sinochem-tech/fabric/protos/msp"
 	"github.com/pkg/errors"
 )
 

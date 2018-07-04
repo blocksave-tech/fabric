@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package chaincode
 
 import (
-	"github.com/hyperledger/fabric/core/common/sysccprovider"
-	"github.com/hyperledger/fabric/core/container/ccintf"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/core/common/sysccprovider"
+	"github.com/sinochem-tech/fabric/core/container/ccintf"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 )
 
 // Helpers to access unexported state.

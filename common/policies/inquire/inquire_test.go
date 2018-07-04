@@ -11,9 +11,9 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/cauthdsl"
+	"github.com/sinochem-tech/fabric/protos/msp"
+	"github.com/sinochem-tech/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

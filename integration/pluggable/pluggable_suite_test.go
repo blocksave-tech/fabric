@@ -13,7 +13,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/hyperledger/fabric/integration/nwo"
+	"github.com/sinochem-tech/fabric/integration/nwo"
 )
 
 func TestPluggable(t *testing.T) {

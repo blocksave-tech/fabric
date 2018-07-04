@@ -17,7 +17,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	pb "github.com/hyperledger/fabric/protos/peer"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 )
 
 type tarEntry struct {

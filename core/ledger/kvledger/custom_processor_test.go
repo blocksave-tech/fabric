@@ -10,16 +10,16 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/protos/ledger/rwset/kvrwset"
+	"github.com/sinochem-tech/fabric/protos/peer"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	lgrutil "github.com/hyperledger/fabric/core/ledger/util"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	lgrutil "github.com/sinochem-tech/fabric/core/ledger/util"
 
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/customtx"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/core/ledger/customtx"
+	"github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

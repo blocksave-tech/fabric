@@ -19,7 +19,7 @@ package clilogging
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/flogging"
 
 	"github.com/spf13/cobra"
 )

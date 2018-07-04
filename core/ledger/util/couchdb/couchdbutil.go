@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/common/util"
+	"github.com/sinochem-tech/fabric/common/util"
 )
 
 var expectedDatabaseNamePattern = `[a-z][a-z0-9.$_()-]*`

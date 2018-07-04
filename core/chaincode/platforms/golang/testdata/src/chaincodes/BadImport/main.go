@@ -10,7 +10,7 @@ package main
 import (
 	"bogus/package"
 	"fmt"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
+	"github.com/sinochem-tech/fabric/core/chaincode/shim"
 )
 
 // SimpleChaincode example simple Chaincode implementation

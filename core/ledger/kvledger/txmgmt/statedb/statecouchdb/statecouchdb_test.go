@@ -13,14 +13,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb/commontests"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	ledgertestutil "github.com/hyperledger/fabric/core/ledger/testutil"
-	"github.com/hyperledger/fabric/integration/runner"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	"github.com/sinochem-tech/fabric/core/common/ccprovider"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/statedb/commontests"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/version"
+	ledgertestutil "github.com/sinochem-tech/fabric/core/ledger/testutil"
+	"github.com/sinochem-tech/fabric/integration/runner"
 	"github.com/spf13/viper"
 )
 

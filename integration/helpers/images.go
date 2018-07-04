@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hyperledger/fabric/common/util"
+	"github.com/sinochem-tech/fabric/common/util"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 

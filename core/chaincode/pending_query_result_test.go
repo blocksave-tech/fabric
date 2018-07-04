@@ -13,8 +13,8 @@ import (
 	. "github.com/onsi/gomega"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/chaincode"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
+	"github.com/sinochem-tech/fabric/core/chaincode"
+	"github.com/sinochem-tech/fabric/protos/ledger/queryresult"
 	"github.com/pkg/errors"
 )
 

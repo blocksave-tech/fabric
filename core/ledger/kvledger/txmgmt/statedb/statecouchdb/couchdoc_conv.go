@@ -13,9 +13,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/core/ledger/util/couchdb"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/sinochem-tech/fabric/core/ledger/util/couchdb"
 )
 
 const (

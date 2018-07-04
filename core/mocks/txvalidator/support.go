@@ -19,12 +19,12 @@ package support
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/common/channelconfig"
-	mockpolicies "github.com/hyperledger/fabric/common/mocks/policies"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/common/channelconfig"
+	mockpolicies "github.com/sinochem-tech/fabric/common/mocks/policies"
+	"github.com/sinochem-tech/fabric/common/policies"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/msp"
+	"github.com/sinochem-tech/fabric/protos/common"
 )
 
 type Support struct {

@@ -9,7 +9,7 @@ package shim
 import (
 	"testing"
 
-	pb "github.com/hyperledger/fabric/protos/peer"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -21,7 +21,7 @@ func buildPlugin(lib string, t *testing.T) {
 	// check to see if the example plugin exists
 	if _, err := os.Stat(lib); err != nil {
 		// build the example plugin
-		cmd := exec.Command("go", "build", "-buildmode=plugin", "github.com/hyperledger/fabric/examples/plugins/bccsp")
+		cmd := exec.Command("go", "build", "-buildmode=plugin", "github.com/sinochem-tech/fabric/examples/plugins/bccsp")
 		err := cmd.Run()
 		if err != nil {
 			t.Fatalf("Could not build plugin: [%s]", err)

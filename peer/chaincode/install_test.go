@@ -12,8 +12,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/peer/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/peer/common"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -56,7 +56,7 @@ func TestBadVersion(t *testing.T) {
 	cmd, _ := initInstallTest(fsPath, t)
 	defer cleanupInstallTest(fsPath)
 
-	args := []string{"-n", "example02", "-p", "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"}
+	args := []string{"-n", "example02", "-p", "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd"}
 	cmd.SetArgs(args)
 
 	if err := cmd.Execute(); err == nil {
@@ -71,7 +71,7 @@ func TestNonExistentCC(t *testing.T) {
 	cmd, _ := initInstallTest(fsPath, t)
 	defer cleanupInstallTest(fsPath)
 
-	args := []string{"-n", "badexample02", "-p", "github.com/hyperledger/fabric/examples/chaincode/go/bad_example02", "-v", "testversion"}
+	args := []string{"-n", "badexample02", "-p", "github.com/sinochem-tech/fabric/examples/chaincode/go/bad_example02", "-v", "testversion"}
 	cmd.SetArgs(args)
 
 	if err := cmd.Execute(); err == nil {
@@ -160,7 +160,7 @@ func installEx02(t *testing.T) error {
 	mockEndorserClient := common.GetMockEndorserClient(mockResponse, nil)
 	mockCF.EndorserClients = []pb.EndorserClient{mockEndorserClient}
 
-	args := []string{"-n", "example02", "-p", "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd", "-v", "anotherversion"}
+	args := []string{"-n", "example02", "-p", "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd", "-v", "anotherversion"}
 	cmd.SetArgs(args)
 
 	if err := cmd.Execute(); err != nil {

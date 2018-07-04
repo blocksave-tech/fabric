@@ -9,10 +9,10 @@ package peer
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/customtx"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/core/ledger/customtx"
+	"github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/utils"
 )
 
 const (
@@ -20,7 +20,7 @@ const (
 	peerNamespace    = ""
 )
 
-// txProcessor implements the interface 'github.com/hyperledger/fabric/core/ledger/customtx/Processor'
+// txProcessor implements the interface 'github.com/sinochem-tech/fabric/core/ledger/customtx/Processor'
 type configtxProcessor struct {
 }
 
@@ -29,7 +29,7 @@ func newConfigTxProcessor() customtx.Processor {
 	return &configtxProcessor{}
 }
 
-// GenerateSimulationResults implements function in the interface 'github.com/hyperledger/fabric/core/ledger/customtx/Processor'
+// GenerateSimulationResults implements function in the interface 'github.com/sinochem-tech/fabric/core/ledger/customtx/Processor'
 // This implemantation processes following two types of transactions.
 // CONFIG  - simply stores the config in the statedb. Additionally, stores the resource config seed if the transaction is from the genesis block.
 // PEER_RESOURCE_UPDATE - In a normal course, this validates the transaction against the current resource bundle,

@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/peer/common"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/peer/common"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

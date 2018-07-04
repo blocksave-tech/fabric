@@ -9,15 +9,15 @@ package pvtstatepurgemgmt
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger/pvtdatapolicy"
+	"github.com/sinochem-tech/fabric/core/ledger/pvtdatapolicy"
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	btltestutil "github.com/hyperledger/fabric/core/ledger/pvtdatapolicy/testutil"
-	"github.com/hyperledger/fabric/core/ledger/util"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/privacyenabledstate"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/version"
+	btltestutil "github.com/sinochem-tech/fabric/core/ledger/pvtdatapolicy/testutil"
+	"github.com/sinochem-tech/fabric/core/ledger/util"
 )
 
 func TestBuildExpirySchedule(t *testing.T) {

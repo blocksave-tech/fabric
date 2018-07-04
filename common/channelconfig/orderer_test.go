@@ -9,7 +9,7 @@ package channelconfig
 import (
 	"testing"
 
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	ab "github.com/sinochem-tech/fabric/protos/orderer"
 
 	logging "github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"

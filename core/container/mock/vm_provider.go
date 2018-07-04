@@ -4,7 +4,7 @@ package mock
 import (
 	"sync"
 
-	container_test "github.com/hyperledger/fabric/core/container"
+	container_test "github.com/sinochem-tech/fabric/core/container"
 )
 
 type VMProvider struct {

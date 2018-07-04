@@ -24,13 +24,13 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/spf13/cobra"
 
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/core/common/ccpackage"
-	"github.com/hyperledger/fabric/msp"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	pcommon "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/cauthdsl"
+	"github.com/sinochem-tech/fabric/core/common/ccpackage"
+	"github.com/sinochem-tech/fabric/msp"
+	mspmgmt "github.com/sinochem-tech/fabric/msp/mgmt"
+	pcommon "github.com/sinochem-tech/fabric/protos/common"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/protos/utils"
 )
 
 var chaincodePackageCmd *cobra.Command

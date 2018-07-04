@@ -9,12 +9,12 @@ package discovery
 import (
 	"context"
 
-	"github.com/hyperledger/fabric/cmd/common"
-	"github.com/hyperledger/fabric/cmd/common/comm"
-	"github.com/hyperledger/fabric/cmd/common/signer"
-	"github.com/hyperledger/fabric/discovery/client"
-	. "github.com/hyperledger/fabric/protos/discovery"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/cmd/common"
+	"github.com/sinochem-tech/fabric/cmd/common/comm"
+	"github.com/sinochem-tech/fabric/cmd/common/signer"
+	"github.com/sinochem-tech/fabric/discovery/client"
+	. "github.com/sinochem-tech/fabric/protos/discovery"
+	"github.com/sinochem-tech/fabric/protos/utils"
 	"github.com/pkg/errors"
 )
 

@@ -23,13 +23,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/events/consumer"
-	"github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/core/ledger/util"
+	"github.com/sinochem-tech/fabric/events/consumer"
+	"github.com/sinochem-tech/fabric/msp/mgmt"
+	"github.com/sinochem-tech/fabric/msp/mgmt/testtools"
+	"github.com/sinochem-tech/fabric/protos/common"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/protos/utils"
 	"github.com/spf13/viper"
 )
 

@@ -27,7 +27,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/sinochem-tech/fabric/bccsp/utils"
 	"github.com/pkg/errors"
 )
 

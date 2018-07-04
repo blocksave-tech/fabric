@@ -9,7 +9,7 @@ package statebased
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/protos/peer"
 )
 
 // ValidationParameterUpdatedErr is returned whenever

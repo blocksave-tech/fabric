@@ -21,10 +21,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	putils "github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/util"
+	"github.com/sinochem-tech/fabric/core/common/ccprovider"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
+	putils "github.com/sinochem-tech/fabric/protos/utils"
 
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
@@ -139,7 +139,7 @@ func TestUpgradeCC(t *testing.T) {
 	var ctxt = context.Background()
 
 	ccName := "mycc"
-	url := "github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example01"
+	url := "github.com/sinochem-tech/fabric/examples/chaincode/go/chaincode_example01"
 	chaincodeID := &pb.ChaincodeID{Name: ccName, Path: url, Version: "0"}
 
 	f := "init"
@@ -180,7 +180,7 @@ func TestUpgradeCC(t *testing.T) {
 
 	//now upgrade to example02 which takes the same args as example01 but inits state vars
 	//and also allows query.
-	url = "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	url = "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd"
 
 	//Note ccName hasn't changed...
 	chaincodeID = &pb.ChaincodeID{Name: ccName, Path: url, Version: "1"}
@@ -233,7 +233,7 @@ func TestInvalUpgradeCC(t *testing.T) {
 	var ctxt = context.Background()
 
 	ccName := "mycc"
-	url := "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd"
+	url := "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd"
 
 	f := "init"
 	args := util.ToChaincodeArgs(f, "a", "100", "b", "200")

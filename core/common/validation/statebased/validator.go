@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package statebased
 
 import (
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/protos/peer"
 )
 
 // StateBasedValidator is used to validate a transaction that performs changes to

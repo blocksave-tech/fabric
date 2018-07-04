@@ -20,9 +20,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/version"
 )
 
 // TestGetStateMultipleKeys tests read for given multiple keys
@@ -65,7 +65,7 @@ func TestBasicRW(t *testing.T, dbProvider statedb.VersionedDBProvider) {
 	testutil.AssertNil(t, sp)
 
 	// Test retrieval of non-existent key - returns nil rather than error
-	// For more details see https://github.com/hyperledger-archives/fabric/issues/936.
+	// For more details see https://github.com/sinochem-tech-archives/fabric/issues/936.
 	val, err := db.GetState("ns", "key1")
 	testutil.AssertNoError(t, err, "Should receive nil rather than error upon reading non existent key")
 	testutil.AssertNil(t, val)

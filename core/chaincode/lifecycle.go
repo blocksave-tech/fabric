@@ -8,10 +8,10 @@ package chaincode
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/common/util"
+	"github.com/sinochem-tech/fabric/core/chaincode/shim"
+	"github.com/sinochem-tech/fabric/core/common/ccprovider"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/pkg/errors"
 	"golang.org/x/net/context"
 )

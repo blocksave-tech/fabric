@@ -17,13 +17,13 @@ limitations under the License.
 package cauthdsl
 
 import (
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/msp"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/msp"
 
 	"sort"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/protos/utils"
 )
 
 // AcceptAllPolicy always evaluates to true

@@ -13,10 +13,10 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/chaincode/platforms"
-	"github.com/hyperledger/fabric/core/container/ccintf"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/core/chaincode/platforms"
+	"github.com/sinochem-tech/fabric/core/container/ccintf"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 )
 
 type VMProvider interface {

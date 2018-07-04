@@ -13,11 +13,11 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/handlers/auth"
-	"github.com/hyperledger/fabric/core/handlers/decoration"
-	endorsement2 "github.com/hyperledger/fabric/core/handlers/endorsement/api"
-	"github.com/hyperledger/fabric/core/handlers/validation/api"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/core/handlers/auth"
+	"github.com/sinochem-tech/fabric/core/handlers/decoration"
+	endorsement2 "github.com/sinochem-tech/fabric/core/handlers/endorsement/api"
+	"github.com/sinochem-tech/fabric/core/handlers/validation/api"
 )
 
 var logger = flogging.MustGetLogger("core/handlers")

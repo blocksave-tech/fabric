@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
-	"github.com/hyperledger/fabric/peer/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/msp/mgmt/testtools"
+	"github.com/sinochem-tech/fabric/peer/common"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )
@@ -60,13 +60,13 @@ func TestUpgradeCmd(t *testing.T) {
 	cmd := upgradeCmd(mockCF)
 	addFlags(cmd)
 
-	args := []string{"-n", "example02", "-p", "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd",
+	args := []string{"-n", "example02", "-p", "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd",
 		"-v", "anotherversion", "-c", "{\"Function\":\"init\",\"Args\": [\"param\",\"1\"]}"}
 	cmd.SetArgs(args)
 	err = cmd.Execute()
 	assert.Error(t, err, "'peer chaincode upgrade' command should have failed without -C flag")
 
-	args = []string{"-C", "mychannel", "-n", "example02", "-p", "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd",
+	args = []string{"-C", "mychannel", "-n", "example02", "-p", "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd",
 		"-v", "anotherversion", "-c", "{\"Function\":\"init\",\"Args\": [\"param\",\"1\"]}"}
 	cmd.SetArgs(args)
 	err = cmd.Execute()
@@ -96,7 +96,7 @@ func TestUpgradeCmdEndorseFail(t *testing.T) {
 	cmd := upgradeCmd(mockCF)
 	addFlags(cmd)
 
-	args := []string{"-C", "mychannel", "-n", "example02", "-p", "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd",
+	args := []string{"-C", "mychannel", "-n", "example02", "-p", "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd",
 		"-v", "anotherversion", "-c", "{\"Function\":\"init\",\"Args\": [\"param\",\"1\"]}"}
 	cmd.SetArgs(args)
 
@@ -134,7 +134,7 @@ func TestUpgradeCmdSendTXFail(t *testing.T) {
 	cmd := upgradeCmd(mockCF)
 	addFlags(cmd)
 
-	args := []string{"-C", "mychannel", "-n", "example02", "-p", "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd", "-v", "anotherversion", "-c", "{\"Function\":\"init\",\"Args\": [\"param\",\"1\"]}"}
+	args := []string{"-C", "mychannel", "-n", "example02", "-p", "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd", "-v", "anotherversion", "-c", "{\"Function\":\"init\",\"Args\": [\"param\",\"1\"]}"}
 	cmd.SetArgs(args)
 
 	expectErrMsg := sendErr.Error()
@@ -169,7 +169,7 @@ func TestUpgradeCmdWithNilCF(t *testing.T) {
 	cmd := upgradeCmd(nil)
 	addFlags(cmd)
 
-	args := []string{"-C", "mychannel", "-n", "example02", "-p", "github.com/hyperledger/fabric/examples/chaincode/go/example02/cmd",
+	args := []string{"-C", "mychannel", "-n", "example02", "-p", "github.com/sinochem-tech/fabric/examples/chaincode/go/example02/cmd",
 		"-v", "anotherversion", "-c", "{\"Function\":\"init\",\"Args\": [\"param\",\"1\"]}"}
 	cmd.SetArgs(args)
 	err := cmd.Execute()

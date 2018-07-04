@@ -9,8 +9,8 @@ package localconfig
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/config/configtest"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/core/config/configtest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

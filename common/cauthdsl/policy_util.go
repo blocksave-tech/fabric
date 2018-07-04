@@ -17,8 +17,8 @@ limitations under the License.
 package cauthdsl
 
 import (
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/utils"
 )
 
 // TemplatePolicy creates a headerless configuration item representing a policy for a given key

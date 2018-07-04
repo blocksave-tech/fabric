@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hyperledger/fabric/common/util"
-	ledger "github.com/hyperledger/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/common/util"
+	ledger "github.com/sinochem-tech/fabric/core/ledger"
 
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/common"
 	logging "github.com/op/go-logging"
 )
 

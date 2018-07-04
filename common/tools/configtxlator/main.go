@@ -23,11 +23,11 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/hyperledger/fabric/common/tools/configtxlator/metadata"
-	"github.com/hyperledger/fabric/common/tools/configtxlator/rest"
-	"github.com/hyperledger/fabric/common/tools/configtxlator/update"
-	"github.com/hyperledger/fabric/common/tools/protolator"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/common/tools/configtxlator/metadata"
+	"github.com/sinochem-tech/fabric/common/tools/configtxlator/rest"
+	"github.com/sinochem-tech/fabric/common/tools/configtxlator/update"
+	"github.com/sinochem-tech/fabric/common/tools/protolator"
+	cb "github.com/sinochem-tech/fabric/protos/common"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/op/go-logging"

@@ -48,7 +48,7 @@ package gossip
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import common2 "github.com/hyperledger/fabric/protos/common"
+import common2 "github.com/sinochem-tech/fabric/protos/common"
 
 import (
 	context "golang.org/x/net/context"

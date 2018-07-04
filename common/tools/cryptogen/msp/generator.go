@@ -14,11 +14,11 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/ca"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/csp"
-	fabricmsp "github.com/hyperledger/fabric/msp"
+	"github.com/sinochem-tech/fabric/bccsp"
+	"github.com/sinochem-tech/fabric/bccsp/factory"
+	"github.com/sinochem-tech/fabric/common/tools/cryptogen/ca"
+	"github.com/sinochem-tech/fabric/common/tools/cryptogen/csp"
+	fabricmsp "github.com/sinochem-tech/fabric/msp"
 )
 
 const (

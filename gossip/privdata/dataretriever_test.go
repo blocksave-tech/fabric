@@ -10,12 +10,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/transientstore"
-	"github.com/hyperledger/fabric/protos/common"
-	gossip2 "github.com/hyperledger/fabric/protos/gossip"
-	"github.com/hyperledger/fabric/protos/ledger/rwset"
-	transientstore2 "github.com/hyperledger/fabric/protos/transientstore"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/core/transientstore"
+	"github.com/sinochem-tech/fabric/protos/common"
+	gossip2 "github.com/sinochem-tech/fabric/protos/gossip"
+	"github.com/sinochem-tech/fabric/protos/ledger/rwset"
+	transientstore2 "github.com/sinochem-tech/fabric/protos/transientstore"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

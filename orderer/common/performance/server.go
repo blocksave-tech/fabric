@@ -10,9 +10,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	ab "github.com/sinochem-tech/fabric/protos/orderer"
 	"github.com/op/go-logging"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

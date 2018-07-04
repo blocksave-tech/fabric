@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package channelconfig
 
 import (
-	pb "github.com/hyperledger/fabric/protos/peer"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 )
 
 // aclsProvider provides mappings for resource to policy names

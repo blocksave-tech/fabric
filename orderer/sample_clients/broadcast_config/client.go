@@ -11,11 +11,11 @@ import (
 
 	"google.golang.org/grpc"
 
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/orderer/common/localconfig"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	genesisconfig "github.com/sinochem-tech/fabric/common/tools/configtxgen/localconfig"
+	mspmgmt "github.com/sinochem-tech/fabric/msp/mgmt"
+	"github.com/sinochem-tech/fabric/orderer/common/localconfig"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	ab "github.com/sinochem-tech/fabric/protos/orderer"
 )
 
 type broadcastClient struct {

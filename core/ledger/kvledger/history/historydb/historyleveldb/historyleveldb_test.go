@@ -21,14 +21,14 @@ import (
 	"strconv"
 	"testing"
 
-	configtxtest "github.com/hyperledger/fabric/common/configtx/test"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	util2 "github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
-	"github.com/hyperledger/fabric/protos/peer"
+	configtxtest "github.com/sinochem-tech/fabric/common/configtx/test"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	util2 "github.com/sinochem-tech/fabric/common/util"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/core/ledger/util"
+	"github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/ledger/queryresult"
+	"github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/spf13/viper"
 )
 

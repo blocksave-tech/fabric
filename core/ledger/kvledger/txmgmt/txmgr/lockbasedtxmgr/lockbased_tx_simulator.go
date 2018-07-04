@@ -9,10 +9,10 @@ import (
 	"errors"
 	"fmt"
 
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/txmgr"
+	commonledger "github.com/sinochem-tech/fabric/common/ledger"
+	"github.com/sinochem-tech/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/txmgr"
 )
 
 // LockBasedTxSimulator is a transaction simulator used in `LockBasedTxMgr`

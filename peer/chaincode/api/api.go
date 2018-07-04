@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package api
 
 import (
-	pcommon "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	pcommon "github.com/sinochem-tech/fabric/protos/common"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 )
 
 //go:generate counterfeiter -o ../mock/deliver.go -fake-name Deliver . Deliver

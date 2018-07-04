@@ -12,7 +12,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/hyperledger/fabric/core/chaincode"
+	"github.com/sinochem-tech/fabric/core/chaincode"
 	"github.com/spf13/viper"
 )
 

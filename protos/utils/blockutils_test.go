@@ -21,10 +21,10 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	configtxtest "github.com/hyperledger/fabric/common/configtx/test"
-	"github.com/hyperledger/fabric/protos/common"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	configtxtest "github.com/sinochem-tech/fabric/common/configtx/test"
+	"github.com/sinochem-tech/fabric/protos/common"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

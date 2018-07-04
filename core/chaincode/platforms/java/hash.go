@@ -17,10 +17,10 @@ import (
 	"io/ioutil"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/util"
-	ccutil "github.com/hyperledger/fabric/core/chaincode/platforms/util"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/util"
+	ccutil "github.com/sinochem-tech/fabric/core/chaincode/platforms/util"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 )
 
 var logger = flogging.MustGetLogger("java/hash")

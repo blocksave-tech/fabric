@@ -19,17 +19,17 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/handlers/endorsement/api"
-	"github.com/hyperledger/fabric/core/handlers/validation/api"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/core/handlers/endorsement/api"
+	"github.com/sinochem-tech/fabric/core/handlers/validation/api"
+	"github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 
 const (
-	authPluginPackage      = "github.com/hyperledger/fabric/core/handlers/auth/plugin"
-	decoratorPluginPackage = "github.com/hyperledger/fabric/core/handlers/decoration/plugin"
-	endorsementTestPlugin  = "github.com/hyperledger/fabric/core/handlers/endorsement/testdata/"
-	validationTestPlugin   = "github.com/hyperledger/fabric/core/handlers/validation/testdata/"
+	authPluginPackage      = "github.com/sinochem-tech/fabric/core/handlers/auth/plugin"
+	decoratorPluginPackage = "github.com/sinochem-tech/fabric/core/handlers/decoration/plugin"
+	endorsementTestPlugin  = "github.com/sinochem-tech/fabric/core/handlers/endorsement/testdata/"
+	validationTestPlugin   = "github.com/sinochem-tech/fabric/core/handlers/validation/testdata/"
 )
 
 func TestLoadAuthPlugin(t *testing.T) {

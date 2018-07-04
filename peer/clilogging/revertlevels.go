@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package clilogging
 
 import (
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/spf13/cobra"
 	"golang.org/x/net/context"
 )

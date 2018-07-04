@@ -17,8 +17,8 @@ import (
 	"encoding/pem"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/idemix"
-	m "github.com/hyperledger/fabric/msp"
+	"github.com/sinochem-tech/fabric/idemix"
+	m "github.com/sinochem-tech/fabric/msp"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

@@ -18,8 +18,8 @@ limitations under the License.
 package factory
 
 import (
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/pkcs11"
+	"github.com/sinochem-tech/fabric/bccsp"
+	"github.com/sinochem-tech/fabric/bccsp/pkcs11"
 	"github.com/pkg/errors"
 )
 

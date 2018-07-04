@@ -9,9 +9,9 @@ package sanitycheck
 import (
 	"fmt"
 
-	newchannelconfig "github.com/hyperledger/fabric/common/channelconfig"
-	cb "github.com/hyperledger/fabric/protos/common"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
+	newchannelconfig "github.com/sinochem-tech/fabric/common/channelconfig"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	mspprotos "github.com/sinochem-tech/fabric/protos/msp"
 
 	"github.com/golang/protobuf/proto"
 )

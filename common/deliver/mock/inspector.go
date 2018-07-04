@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/deliver"
+	"github.com/sinochem-tech/fabric/common/deliver"
 	"golang.org/x/net/context"
 )
 

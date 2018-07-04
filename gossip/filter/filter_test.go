@@ -9,9 +9,9 @@ package filter
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
+	"github.com/sinochem-tech/fabric/gossip/comm"
+	"github.com/sinochem-tech/fabric/gossip/common"
+	"github.com/sinochem-tech/fabric/gossip/discovery"
 	"github.com/stretchr/testify/assert"
 )
 

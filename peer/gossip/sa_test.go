@@ -19,8 +19,8 @@ package gossip
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/peer/gossip/mocks"
+	"github.com/sinochem-tech/fabric/msp"
+	"github.com/sinochem-tech/fabric/peer/gossip/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

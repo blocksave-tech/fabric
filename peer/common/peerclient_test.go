@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/peer/common"
+	"github.com/sinochem-tech/fabric/peer/common"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

@@ -17,7 +17,7 @@ limitations under the License.
 package crypto
 
 import (
-	cb "github.com/hyperledger/fabric/protos/common"
+	cb "github.com/sinochem-tech/fabric/protos/common"
 )
 
 // FakeLocalSigner is a signer which already has identity an nonce set to fake values

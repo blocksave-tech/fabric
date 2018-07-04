@@ -19,7 +19,7 @@ package ramledger
 import (
 	"testing"
 
-	genesisconfig "github.com/hyperledger/fabric/common/tools/configtxgen/localconfig"
+	genesisconfig "github.com/sinochem-tech/fabric/common/tools/configtxgen/localconfig"
 
 	logging "github.com/op/go-logging"
 )

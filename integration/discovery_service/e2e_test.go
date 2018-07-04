@@ -14,20 +14,20 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/common/tools/configtxlator/update"
-	"github.com/hyperledger/fabric/integration/helpers"
-	"github.com/hyperledger/fabric/integration/runner"
-	"github.com/hyperledger/fabric/integration/world"
+	"github.com/sinochem-tech/fabric/common/cauthdsl"
+	"github.com/sinochem-tech/fabric/common/tools/configtxlator/update"
+	"github.com/sinochem-tech/fabric/integration/helpers"
+	"github.com/sinochem-tech/fabric/integration/runner"
+	"github.com/sinochem-tech/fabric/integration/world"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 
 	"github.com/fsouza/go-dockerclient"
-	"github.com/hyperledger/fabric/protos/common"
-	. "github.com/hyperledger/fabric/protos/discovery"
-	"github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/protos/common"
+	. "github.com/sinochem-tech/fabric/protos/discovery"
+	"github.com/sinochem-tech/fabric/protos/msp"
+	"github.com/sinochem-tech/fabric/protos/utils"
 )
 
 const (
@@ -140,7 +140,7 @@ var _ = Describe("DiscoveryService EndToEnd", func() {
 			Chaincode: world.Chaincode{
 				Name:     "simple",
 				Version:  "1.0",
-				Path:     "github.com/hyperledger/fabric/integration/chaincode/simple/cmd",
+				Path:     "github.com/sinochem-tech/fabric/integration/chaincode/simple/cmd",
 				ExecPath: os.Getenv("PATH"),
 			},
 			InitArgs: `{"Args":["init","a","100","b","200"]}`,
@@ -195,7 +195,7 @@ var _ = Describe("DiscoveryService EndToEnd", func() {
 
 		By("install and instantiate chaincode on p0.org1")
 		adminPeer := getPeer(0, 1, testDir)
-		adminPeer.InstallChaincode("mycc", "1.0", "github.com/hyperledger/fabric/integration/chaincode/simple/cmd")
+		adminPeer.InstallChaincode("mycc", "1.0", "github.com/sinochem-tech/fabric/integration/chaincode/simple/cmd")
 		adminPeer.InstantiateChaincode("mycc", "1.0", d.Orderer, d.Channel, `{"Args":["init","a","100","b","200"]}`, `OR (AND ('Org1MSP.member','Org2MSP.member'), AND ('Org1MSP.member','Org3MSP.member'), AND ('Org2MSP.member','Org3MSP.member'))`, "")
 
 		By("discover peers")
@@ -214,11 +214,11 @@ var _ = Describe("DiscoveryService EndToEnd", func() {
 
 		By("install chaincode on p0.org2")
 		adminPeer = getPeer(0, 2, testDir)
-		adminPeer.InstallChaincode("mycc", "1.0", "github.com/hyperledger/fabric/integration/chaincode/simple/cmd")
+		adminPeer.InstallChaincode("mycc", "1.0", "github.com/sinochem-tech/fabric/integration/chaincode/simple/cmd")
 
 		By("install chaincode on p0.org3")
 		adminPeer = getPeer(0, 3, testDir)
-		adminPeer.InstallChaincode("mycc", "1.0", "github.com/hyperledger/fabric/integration/chaincode/simple/cmd")
+		adminPeer.InstallChaincode("mycc", "1.0", "github.com/sinochem-tech/fabric/integration/chaincode/simple/cmd")
 
 		By("discover peers")
 		EventuallyWithOffset(1, func() bool {
@@ -234,7 +234,7 @@ var _ = Describe("DiscoveryService EndToEnd", func() {
 		EventuallyWithOffset(1, runner.VerifyEndorsersDiscovered(sd, expectedChaincodeEndrorsers, d.Channel, "127.0.0.1:9051", "mycc", ""), time.Minute).Should(BeTrue())
 
 		By("install a new chaincode on all peers")
-		installChaincodeOnAllPeers(2, 3, "mycc2", "1.0", "github.com/hyperledger/fabric/integration/chaincode/simple/cmd", testDir)
+		installChaincodeOnAllPeers(2, 3, "mycc2", "1.0", "github.com/sinochem-tech/fabric/integration/chaincode/simple/cmd", testDir)
 		By("instantiate new chaincode")
 		adminPeer.InstantiateChaincode("mycc2", "1.0", d.Orderer, d.Channel, `{"Args":["init","a","100","b","200"]}`, `AND ('Org1MSP.member','Org2MSP.member', 'Org3MSP.member')`, "")
 		By("discover endorsers")
@@ -244,11 +244,11 @@ var _ = Describe("DiscoveryService EndToEnd", func() {
 
 		By("upgrading mycc chaincode and add collections config")
 		adminPeer = getPeer(0, 2, testDir)
-		adminPeer.InstallChaincode("mycc", "2.0", "github.com/hyperledger/fabric/integration/chaincode/simple/cmd")
+		adminPeer.InstallChaincode("mycc", "2.0", "github.com/sinochem-tech/fabric/integration/chaincode/simple/cmd")
 		adminPeer = getPeer(0, 3, testDir)
-		adminPeer.InstallChaincode("mycc", "2.0", "github.com/hyperledger/fabric/integration/chaincode/simple/cmd")
+		adminPeer.InstallChaincode("mycc", "2.0", "github.com/sinochem-tech/fabric/integration/chaincode/simple/cmd")
 		adminPeer = getPeer(0, 1, testDir)
-		adminPeer.InstallChaincode("mycc", "2.0", "github.com/hyperledger/fabric/integration/chaincode/simple/cmd")
+		adminPeer.InstallChaincode("mycc", "2.0", "github.com/sinochem-tech/fabric/integration/chaincode/simple/cmd")
 		adminPeer.UpgradeChaincode("mycc", "2.0", d.Orderer, d.Channel, `{"Args":["init","a","100","b","200"]}`, `OR (AND ('Org1MSP.member','Org2MSP.member'), AND ('Org1MSP.member','Org3MSP.member'), AND ('Org2MSP.member','Org3MSP.member'))`, filepath.Join("testdata", "collections_config1.json"))
 		By("discover endorsers")
 		EventuallyWithOffset(1, func() bool {

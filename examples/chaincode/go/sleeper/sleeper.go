@@ -27,8 +27,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/core/chaincode/shim"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 )
 
 // SleeperChaincode example simple Chaincode implementation

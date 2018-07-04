@@ -19,7 +19,7 @@ import (
 	"crypto/x509"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/attrmgr"
+	"github.com/sinochem-tech/fabric/common/attrmgr"
 	"github.com/stretchr/testify/assert"
 )
 

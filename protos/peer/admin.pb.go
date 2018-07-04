@@ -92,7 +92,7 @@ import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
 import google_protobuf "github.com/golang/protobuf/ptypes/empty"
-import common "github.com/hyperledger/fabric/protos/common"
+import common "github.com/sinochem-tech/fabric/protos/common"
 
 import (
 	context "golang.org/x/net/context"

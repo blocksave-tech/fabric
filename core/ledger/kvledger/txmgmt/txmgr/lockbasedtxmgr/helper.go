@@ -9,16 +9,16 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/txmgr"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/txmgr"
 
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
-	"github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
+	commonledger "github.com/sinochem-tech/fabric/common/ledger"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/sinochem-tech/fabric/core/ledger/ledgerconfig"
+	"github.com/sinochem-tech/fabric/core/ledger/util"
+	"github.com/sinochem-tech/fabric/protos/ledger/queryresult"
+	"github.com/sinochem-tech/fabric/protos/ledger/rwset/kvrwset"
 )
 
 type queryHelper struct {

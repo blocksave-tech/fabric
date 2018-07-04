@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/peer/common/api"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/core/comm"
+	"github.com/sinochem-tech/fabric/peer/common/api"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/pkg/errors"
 )
 

@@ -19,13 +19,13 @@ package deliverclient
 import (
 	"math"
 
-	"github.com/hyperledger/fabric/common/localmsp"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/core/deliverservice/blocksprovider"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/localmsp"
+	"github.com/sinochem-tech/fabric/common/util"
+	"github.com/sinochem-tech/fabric/core/comm"
+	"github.com/sinochem-tech/fabric/core/deliverservice/blocksprovider"
+	"github.com/sinochem-tech/fabric/protos/common"
+	"github.com/sinochem-tech/fabric/protos/orderer"
+	"github.com/sinochem-tech/fabric/protos/utils"
 )
 
 type blocksRequester struct {

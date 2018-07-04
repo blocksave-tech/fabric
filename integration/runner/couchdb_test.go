@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/fsouza/go-dockerclient"
-	"github.com/hyperledger/fabric/integration/runner"
+	"github.com/sinochem-tech/fabric/integration/runner"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"

@@ -36,9 +36,9 @@ package discovery
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import gossip "github.com/hyperledger/fabric/protos/gossip"
-import msp "github.com/hyperledger/fabric/protos/msp"
-import _ "github.com/hyperledger/fabric/protos/msp"
+import gossip "github.com/sinochem-tech/fabric/protos/gossip"
+import msp "github.com/sinochem-tech/fabric/protos/msp"
+import _ "github.com/sinochem-tech/fabric/protos/msp"
 
 import (
 	context "golang.org/x/net/context"

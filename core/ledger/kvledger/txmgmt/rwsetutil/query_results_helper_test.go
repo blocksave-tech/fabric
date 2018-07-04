@@ -22,10 +22,10 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	bccspfactory "github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
+	bccspfactory "github.com/sinochem-tech/fabric/bccsp/factory"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	"github.com/sinochem-tech/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/sinochem-tech/fabric/protos/ledger/rwset/kvrwset"
 )
 
 func TestQueryResultHelper_NoResults(t *testing.T) {

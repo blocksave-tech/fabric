@@ -9,10 +9,10 @@ package kvledger
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
+	"github.com/sinochem-tech/fabric/protos/ledger/rwset/kvrwset"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger"
+	"github.com/sinochem-tech/fabric/common/ledger/testutil"
+	"github.com/sinochem-tech/fabric/core/ledger"
 	"github.com/stretchr/testify/assert"
 )
 

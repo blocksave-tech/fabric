@@ -14,14 +14,14 @@ import (
 
 	"github.com/Shopify/sarama"
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/flogging"
-	mockconfig "github.com/hyperledger/fabric/common/mocks/config"
-	localconfig "github.com/hyperledger/fabric/orderer/common/localconfig"
-	"github.com/hyperledger/fabric/orderer/consensus"
-	mockmultichannel "github.com/hyperledger/fabric/orderer/mocks/common/multichannel"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/sinochem-tech/fabric/common/flogging"
+	mockconfig "github.com/sinochem-tech/fabric/common/mocks/config"
+	localconfig "github.com/sinochem-tech/fabric/orderer/common/localconfig"
+	"github.com/sinochem-tech/fabric/orderer/consensus"
+	mockmultichannel "github.com/sinochem-tech/fabric/orderer/mocks/common/multichannel"
+	cb "github.com/sinochem-tech/fabric/protos/common"
+	ab "github.com/sinochem-tech/fabric/protos/orderer"
+	"github.com/sinochem-tech/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -18,8 +18,8 @@ package factory
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/bccsp"
+	"github.com/sinochem-tech/fabric/common/flogging"
 	"github.com/pkg/errors"
 )
 

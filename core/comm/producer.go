@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/sinochem-tech/fabric/common/flogging"
 	"google.golang.org/grpc"
 )
 

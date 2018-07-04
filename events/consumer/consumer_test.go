@@ -16,12 +16,12 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/comm"
-	coreutil "github.com/hyperledger/fabric/core/testutil"
-	"github.com/hyperledger/fabric/events/producer"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/sinochem-tech/fabric/common/util"
+	"github.com/sinochem-tech/fabric/core/comm"
+	coreutil "github.com/sinochem-tech/fabric/core/testutil"
+	"github.com/sinochem-tech/fabric/events/producer"
+	"github.com/sinochem-tech/fabric/msp/mgmt/testtools"
+	pb "github.com/sinochem-tech/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 )

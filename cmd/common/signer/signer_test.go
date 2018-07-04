@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp/utils"
-	"github.com/hyperledger/fabric/common/util"
+	"github.com/sinochem-tech/fabric/bccsp/utils"
+	"github.com/sinochem-tech/fabric/common/util"
 	"github.com/stretchr/testify/assert"
 )
 

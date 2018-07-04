@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package configtx
 
 import (
-	cb "github.com/hyperledger/fabric/protos/common"
+	cb "github.com/sinochem-tech/fabric/protos/common"
 
 	"github.com/golang/protobuf/proto"
 )

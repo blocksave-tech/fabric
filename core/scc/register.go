@@ -9,8 +9,8 @@ SPDX-License-Identifier: Apache-2.0
 package scc
 
 import (
-	"github.com/hyperledger/fabric/core/aclmgmt"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
+	"github.com/sinochem-tech/fabric/core/aclmgmt"
+	"github.com/sinochem-tech/fabric/core/common/ccprovider"
 )
 
 // CreateSysCCs creates all of the system chaincodes which are compiled into fabric
